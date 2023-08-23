@@ -1,4 +1,4 @@
-import SteedPic from './Steed_and_horse.png';
+import SteedPic from '../..//Steed_and_horse.png';
 import './App.css';
 
 function App() {
