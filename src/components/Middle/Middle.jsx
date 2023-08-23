@@ -15,7 +15,7 @@ const Middle=()=>{
                 target="_blank"
                 rel="noopener noreferrer"
             >
-            Learn About Me
+            Learn About Me!
             </a>
         </div>
     );
