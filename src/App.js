@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>Choice Colt Starting</p>
         <img src={SteedPic} className="App-logo" alt="logo" />
         <p>
           Hi! I'm Stephen and I love horses!
