@@ -9,6 +9,7 @@ const Middle=()=>{
             <p>
             Hi! I'm Stephen and I love horses!
             </p>
+            <p>GitHub Pages Is Awesome!</p>
             <a
                 className="App-link"
                 href="https://www.linkedin.com/in/stephen-burggraaf-867993226/"
