@@ -1,5 +1,14 @@
 #headerDiv{
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:space-evenly;
+    width:100vw;
+    height:150px;
+    /* background-color:rgb(89,35,9); */
+}
+#headerLogo{
+    border-radius:80px;
+    height:150px;
+}
+#headerText{
 }
