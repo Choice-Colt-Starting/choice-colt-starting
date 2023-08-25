@@ -11,4 +11,5 @@
     height:150px;
 }
 #headerText{
+    display:flex;
 }
