@@ -4,6 +4,7 @@
     justify-content:space-evenly;
     width:100vw;
     height:150px;
+    background-color:black;
     /* background-color:rgb(89,35,9); This is the brown color for logo*/
 }
 #headerLogo{
@@ -12,4 +13,5 @@
 }
 #headerText{
     display:flex;
+    color:white;
 }
