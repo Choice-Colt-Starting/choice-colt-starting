@@ -5,10 +5,10 @@ function Header(){
     return(
         <div id="headerDiv">
             <div>
-                <img id="headerLogo" src={headerLogo} alt="Choice Colt Starting" />
+                <h1 id="headerMyName">Stephen Burggraaf</h1>
             </div>
-            <h1 id="headerText">Choice Colt Starting</h1>
-            <div>
+                <img id="headerLogo" src={headerLogo} alt="Choice Colt Starting" />
+            <div id="rightHeaderDiv">
             </div>
         </div>
     );

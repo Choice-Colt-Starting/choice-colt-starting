@@ -1,7 +1,7 @@
 #headerDiv{
     display:flex;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     width:100vw;
     height:150px;
     background-color:black;
@@ -11,7 +11,8 @@
     border-radius:80px;
     height:150px;
 }
-#headerText{
-    display:flex;
+#headerMyName{
     color:white;
+    margin-left:50px;
+    margin-right:850px;
 }
