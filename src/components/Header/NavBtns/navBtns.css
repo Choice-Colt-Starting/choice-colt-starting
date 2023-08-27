@@ -1,0 +1,18 @@
+#navBtnsParentDiv{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    bottom:40px;
+    justify-content:space-evenly;
+    width:100vw;
+    background-color:rgb(89,35,9);
+    height:40px;
+    align-items:center;
+}
+.NavBtns{
+    color:white;
+    text-decoration:underline;
+}
+.NavBtns:hover{
+    cursor:pointer;
+}

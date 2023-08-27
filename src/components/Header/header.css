@@ -1,18 +1,30 @@
-#headerDiv{
+#headerParentDiv{
+    display:flex;
+    flex-direction:column;
+}
+#topHeaderDiv{
     display:flex;
     align-items:center;
-    justify-content:flex-start;
+    justify-content:space-between;
     width:100vw;
-    height:150px;
+    height:250px;
     background-color:black;
-    /* background-color:rgb(89,35,9); This is the brown color for logo*/
+}
+#leftHeaderDiv{
+    display:flex;
+}
+#headerMyName{
+    color:white;
+    margin-left:50px;
+}
+#rightHeaderDiv{
+    margin-right:25px;
 }
 #headerLogo{
     border-radius:80px;
     height:150px;
 }
-#headerMyName{
-    color:white;
-    margin-left:50px;
-    margin-right:850px;
+#bottomHeaderDiv{
+    display:flex;
+    justify-content:center;
 }
