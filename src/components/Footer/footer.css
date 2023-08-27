@@ -1,0 +1,10 @@
+#parentFooterDiv{
+    width:100vw;
+    height:250px;
+    background-color:black;
+    display:flex;
+}
+.footerSections{
+    color:white;
+    font-weight:400;
+}

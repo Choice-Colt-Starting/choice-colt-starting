@@ -10,7 +10,7 @@ const NavBtns=()=>{
                 <h4 className="NavBtns">Horses and Reviews</h4>
             </div>
             <div>
-                <h4 className="NavBtns">Training Videos</h4>
+                <h4 className="NavBtns">Training Program</h4>
             </div>
             <div>
                 <h4 className="NavBtns">Contact Us</h4>

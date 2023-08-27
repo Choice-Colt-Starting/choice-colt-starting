@@ -24,6 +24,9 @@
     border-radius:80px;
     height:150px;
 }
+#headerLogo:hover{
+    cursor:pointer;
+}
 #bottomHeaderDiv{
     display:flex;
     justify-content:center;
