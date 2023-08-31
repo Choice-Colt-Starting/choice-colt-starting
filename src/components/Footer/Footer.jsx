@@ -1,15 +1,15 @@
 import"./footer.css";
 import youtubeIcon from"./images/youtubeIcon.jpg";
+import facebookIcon from"./images/facebookIcon.jpg";
 
 function Footer(){
     return(
         <div id="parentFooterDiv">
             <div id="column1">
                 <h3 className="footerText">Discover</h3>
-                <img id="youtubeIcon" src={youtubeIcon} alt="YouTube Channel Link" />
-                {/* <h5 className="footerText">YouTube</h5>
-                <h5 className="footerText">Instagram</h5> */}
-                <h5 className="footerText">Facebook</h5>
+                <img className="socialIcons" src={youtubeIcon} alt="YouTube Channel Link" />
+                <h5 className="footerText">Instagram</h5>
+                <img className="socialIcons" src={facebookIcon} alt="facebook page link" />
                 <h5 className="footerText">TikTok</h5>
                 <h5 className="footerText">LinkedIn</h5>
             </div>
