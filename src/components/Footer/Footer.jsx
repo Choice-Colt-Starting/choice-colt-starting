@@ -1,6 +1,8 @@
 import"./footer.css";
 import youtubeIcon from"./images/youtubeIcon.jpg";
+import instagramIcon from"./images/instagramIcon.jpg";
 import facebookIcon from"./images/facebookIcon.jpg";
+import tiktokIcon from"./images/tiktokIcon.jpg";
 
 function Footer(){
     return(
@@ -8,14 +10,13 @@ function Footer(){
             <div id="column1">
                 <h3 className="footerText">Discover</h3>
                 <img className="socialIcons" src={youtubeIcon} alt="YouTube Channel Link" />
-                <h5 className="footerText">Instagram</h5>
+                <img className="socialIcons" src={instagramIcon} alt="instagram page link" />
                 <img className="socialIcons" src={facebookIcon} alt="facebook page link" />
-                <h5 className="footerText">TikTok</h5>
-                <h5 className="footerText">LinkedIn</h5>
+                <img className="socialIcons" src={tiktokIcon} alt="tiktok page link" />
+
             </div>
             <div id="column2">
                 <h3 className="footerText">Training Resources</h3>
-                <h5 className="footerText">Choice Colt Starting YouTube</h5>
                 <h5 className="footerText">Downunder Horsemanship</h5>
             </div>
             <div id="column3">
