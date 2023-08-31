@@ -1,6 +1,6 @@
 #parentFooterDiv{
     width:100vw;
-    height:400px;
+    height:250px;
     background-color:black;
     display:flex;
     justify-content:space-evenly;
@@ -15,6 +15,13 @@
 .socialIcons{
     height:30px;
     width:30px;
+    margin-bottom:15px;
+}
+.socialIcons:hover{
+    cursor:pointer;
+    height:33px;
+    width:33px;
+    filter:brightness(80%);
 }
 #column1{
     display:flex;
