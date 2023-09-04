@@ -8,6 +8,10 @@
     background-color:rgb(89,35,9);
     height:40px;
     align-items:center;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
 }
 .NavBtns{
     color:white;
