@@ -17,8 +17,11 @@
     border-width:6px;
 }
 .discoverDivs:hover{
-    filter:opacity(100%);
+    filter:opacity(90%);
     cursor:pointer;
+}
+#disDiv0{
+    background-color:peru;
 }
 #disDiv1{
     background-color:lightgray;
@@ -31,6 +34,9 @@
 }
 #disDiv4{
     background-color:lightblue;
+}
+#disDiv5{
+    background-color:wheat;
 }
 .disText{
     font-size:3vh;
