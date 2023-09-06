@@ -1,6 +1,6 @@
 #parentFooterDiv{
+    height:350px;
     width:100vw;
-    height:250px;
     background-color:black;
     display:flex;
     justify-content:space-evenly;

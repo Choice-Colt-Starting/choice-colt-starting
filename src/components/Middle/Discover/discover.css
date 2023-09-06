@@ -1,0 +1,38 @@
+#parentDiscoverDiv{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding-top:15px;
+    padding-bottom:15px;
+    background:url("./images/discoverBackPic.jpg");
+}
+.discoverDivs{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40vh;
+    width: 40vw;
+    filter:opacity(60%);
+    border-style:solid;
+    border-width:6px;
+}
+.discoverDivs:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}
+#disDiv1{
+    background-color:lightgray;
+}
+#disDiv2{
+    background-color:lightgoldenrodyellow;
+}
+#disDiv3{
+    background-color:lightsalmon;
+}
+#disDiv4{
+    background-color:lightblue;
+}
+.disText{
+    font-size:3vh;
+    font-weight:700;
+}

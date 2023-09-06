@@ -2,18 +2,18 @@ import"./discover.css";
 
 function Discover(){
     return(
-        <div>
-            <div>
-                <p>Horses learn from the release of pressure</p>
+        <div id="parentDiscoverDiv">
+            <div id="disDiv1"className="discoverDivs">
+                <p className="disText">Horses learn from the release of pressure</p>
             </div>
-            <div>
-                <p>Why use groundwork?</p>
+            <div id="disDiv2"className="discoverDivs">
+                <p className="disText">Why use groundwork?</p>
             </div>
-            <div>
-                <p>Horses with short attention span</p>
+            <div id="disDiv3"className="discoverDivs">
+                <p className="disText">Horses with short attention span</p>
             </div>
-            <div>
-                <p>How do you know when your horse is ready to learn something new</p>
+            <div id="disDiv4"className="discoverDivs">
+                <p className="disText">How do you know when your horse is ready to learn something new?</p>
             </div>
         </div>
     );

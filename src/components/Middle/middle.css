@@ -4,10 +4,14 @@
     justify-content:center;
     flex-direction:column;
 }
-
 #steedPic{
     display:flex;
     justify-content:center;
     max-width:350px;
     margin-bottom:30px;
+}
+#seperateDiv{
+    height:8px;
+    width:100vw;
+    background-color:black;
 }
