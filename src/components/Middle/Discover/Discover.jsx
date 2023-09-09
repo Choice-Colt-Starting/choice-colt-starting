@@ -3,24 +3,12 @@ import"./discover.css";
 function Discover(){
     return(
         <div id="parentDiscoverDiv">
-            <div id="disDiv0"className="discoverDivs">
-                <p className="disText">Check Progress Of Horses</p>
-            </div>
-            <div id="disDiv1"className="discoverDivs">
-                <p className="disText">Horses learn from the release of pressure</p>
-            </div>
-            <div id="disDiv2"className="discoverDivs">
-                <p className="disText">Visit the ranch</p>
-            </div>
-            <div id="disDiv3"className="discoverDivs">
-                <p className="disText">Why use groundwork?</p>
-            </div>
-            <div id="disDiv4"className="discoverDivs">
-                <p className="disText">Horses with short attention span</p>
-            </div>
-            <div id="disDiv5"className="discoverDivs">
-                <p className="disText">How do you know when your horse is ready to learn something new?</p>
-            </div>
+            <a id="disDiv0" className="discoverDivs disText" href="https://www.youtube.com/@choicecoltstarting">Check progress of horses</a>
+            <a id="disDiv1" className="discoverDivs disText" href="https://www.youtube.com/shorts/bAjq-Agdfi0">Horses learn from the release of paressure</a>
+            <a id="disDiv2" className="discoverDivs disText" href="https://goo.gl/maps/D9ZSuRbdGX6i9Gw69">Visit the ranch</a>
+            <a id="disDiv5" className="discoverDivs disText" href="https://www.youtube.com/shorts/IQyXeVTfL58">How do you know when your horse is ready to learn something new?</a>
+            <a id="disDiv3" className="discoverDivs disText" href="https://www.youtube.com/shorts/tALluyRBeg8">Why use groundwork</a>
+            <a id="disDiv4" className="discoverDivs disText" href="https://www.youtube.com/shorts/F4Bm2ui-Tdk">Horses with short attention span</a>
         </div>
     );
 }

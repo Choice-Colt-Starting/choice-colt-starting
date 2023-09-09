@@ -22,21 +22,33 @@
 }
 #disDiv0{
     background-color:peru;
+    color:black;
+    text-decoration:none;
 }
 #disDiv1{
     background-color:lightgray;
+    color:black;
+    text-decoration:none;
 }
 #disDiv2{
     background-color:lightgoldenrodyellow;
+    color:black;
+    text-decoration:none;
 }
 #disDiv3{
     background-color:lightsalmon;
+    color:black;
+    text-decoration:none;
 }
 #disDiv4{
     background-color:lightblue;
+    color:black;
+    text-decoration:none;
 }
 #disDiv5{
     background-color:wheat;
+    color:black;
+    text-decoration:none;
 }
 .disText{
     font-size:3vh;
