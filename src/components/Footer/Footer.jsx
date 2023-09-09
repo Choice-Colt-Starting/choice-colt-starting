@@ -9,10 +9,27 @@ function Footer(){
         <div id="parentFooterDiv">
             <div id="column1">
                 <h3 className="footerText">Discover</h3>
-                <img className="socialIcons" src={youtubeIcon} alt="YouTube Channel Link" />
-                <img className="socialIcons" src={instagramIcon} alt="instagram page link" />
-                <img className="socialIcons" src={facebookIcon} alt="facebook page link" />
-                <img className="socialIcons" src={tiktokIcon} alt="tiktok page link" />
+                <a href="https://www.youtube.com/@choicecoltstarting">
+                    <figure>
+                        <img className="socialIcons" src={youtubeIcon} alt="YouTube Channel Link" />
+                    </figure>
+                </a>
+                <a href="https://www.instagram.com/choicecoltstarting/?next=%2F">
+                    <figure>
+                        <img className="socialIcons" src={instagramIcon} alt="instagram page link" />
+                    </figure>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100091308695400&sk=about">
+                    <figure>
+                        <img className="socialIcons" src={facebookIcon} alt="facebook page link" />
+                    </figure>
+                </a>
+                <a href="https://www.tiktok.com/@choicecoltstarting">
+                    <figure>
+                        <img className="socialIcons" src={tiktokIcon} alt="tiktok page link" />
+                    </figure>
+                </a>    
+                        
 
             </div>
             <div id="column2">
