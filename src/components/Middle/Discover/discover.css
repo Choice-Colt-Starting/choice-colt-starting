@@ -12,12 +12,12 @@
     align-items:center;
     height:40vh;
     width: 40vw;
-    filter:opacity(60%);
+    filter:opacity(70%);
     border-style:solid;
     border-width:6px;
 }
 .discoverDivs:hover{
-    filter:opacity(90%);
+    filter:opacity(96%);
     cursor:pointer;
 }
 #disDiv0{
