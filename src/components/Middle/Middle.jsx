@@ -5,8 +5,9 @@ import{StephenPage}from"./StephenPage/StephenPage.jsx";
 const Middle=(props)=>{
     return(
         <>
-        <LandingPage stephenClicked={props.stephenClicked} />
-        <StephenPage stephenClicked={props.stephenClicked} />
+            <LandingPage stephenClicked={props.stephenClicked} />
+            <StephenPage stephenClicked={props.stephenClicked} />
+
         </>
     );
     };
