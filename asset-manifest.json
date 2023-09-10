@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/choice-colt-starting/static/css/main.6f61dd25.css",
-    "main.js": "/choice-colt-starting/static/js/main.27735911.js",
+    "main.js": "/choice-colt-starting/static/js/main.ad59ced8.js",
     "static/js/787.ac298769.chunk.js": "/choice-colt-starting/static/js/787.ac298769.chunk.js",
     "static/media/Steed_and_horse.png": "/choice-colt-starting/static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/discoverBackPic.jpg": "/choice-colt-starting/static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
@@ -12,11 +12,11 @@
     "static/media/youtubeIcon.jpg": "/choice-colt-starting/static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "/choice-colt-starting/index.html",
     "main.6f61dd25.css.map": "/choice-colt-starting/static/css/main.6f61dd25.css.map",
-    "main.27735911.js.map": "/choice-colt-starting/static/js/main.27735911.js.map",
+    "main.ad59ced8.js.map": "/choice-colt-starting/static/js/main.ad59ced8.js.map",
     "787.ac298769.chunk.js.map": "/choice-colt-starting/static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f61dd25.css",
-    "static/js/main.27735911.js"
+    "static/js/main.ad59ced8.js"
   ]
 }
