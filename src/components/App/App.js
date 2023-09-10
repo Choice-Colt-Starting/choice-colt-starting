@@ -4,14 +4,20 @@ import{Footer}from"../Footer/Footer.jsx";
 import react from"react";
 
 function App() {
-  const [stephenClicked,setStephenClicked]=react.useState(false);
   const [landingPageClicked,setLandingPageClicked]=react.useState(true);
+  const [stephenClicked,setStephenClicked]=react.useState(false);
+  const [trainingProgramClicked,setTrainingProgramClicked]=react.useState(false);
+  const [horsesReviewsClicked,setHorsesReviewsClicked]=react.useState(false);
+  const [contactUsClicked,setContactUsClicked]=react.useState(false);
+
   return (
-    <div>
-        <Header setStephenClicked={setStephenClicked} setLandingPageClicked={setLandingPageClicked} />
-        <Middle stephenClicked={stephenClicked}landingPageClicked={landingPageClicked} />
+    <>
+        <Header setLandingPageClicked={setLandingPageClicked} setStephenClicked={setStephenClicked} setTrainingProgramClicked={setTrainingProgramClicked} setHorsesReviewsClicked={setHorsesReviewsClicked} setContactUsClicked={setContactUsClicked} />
+
+        <Middle landingPageClicked={landingPageClicked} stephenClicked={stephenClicked} trainingProgramClicked={trainingProgramClicked} horsesReviewsClicked={horsesReviewsClicked} contactUsClicked={contactUsClicked} />
+        
         <Footer />
-    </div>
+    </>
   );
 }
 
