@@ -1,10 +1,10 @@
 import"./navBtns.css";
 
-const NavBtns=()=>{
+const NavBtns=props=>{
     return(
         <div id="navBtnsParentDiv">
             <div>
-                <h4 className="NavBtns">Meet Stephen</h4>
+                <h4 className="NavBtns" onClick={()=>{props.setStephenClicked(true);props.setLandingPageClicked(false);}}>Meet Stephen</h4>
             </div>
             <div>
                 <h4 className="NavBtns">Training Program</h4>

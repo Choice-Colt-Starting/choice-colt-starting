@@ -1,16 +1,9 @@
 import"./middle.css";
-import steedPic from "../../Steed_and_horse.png";
-import{Discover}from"./Discover/Discover.jsx";
+import{LandingPage}from"./LandingPage/LandingPage.jsx";
 
-const Middle=()=>{
+const Middle=(props)=>{
     return(
-        <div id="middleDiv">
-            <img id="steedPic"src={steedPic} alt="logo" />
-            <div id="seperateDiv" />
-            <div>
-                <Discover />
-            </div>
-        </div>
+        <LandingPage stephenClicked={props.stephenClicked} />
     );
     };
 export{Middle};
