@@ -8,6 +8,7 @@ function Footer(){
     return(
         <div id="parentFooterDiv">
             <div id="column1">
+                
                 <h3 className="footerText">Discover</h3>
                 <a href="https://www.youtube.com/@choicecoltstarting">
                     <figure>
@@ -39,10 +40,14 @@ function Footer(){
                 <a className="footerText" href="https://downunderhorsemanship.com/guides/">Downunder Horsemanship Training Guides</a>
             </div>
             <div id="column3">
-                <h3 className="footerText">Contact Us</h3>
-                <h5 className="footerText">Phone Number: (801) 735-4675</h5>
-                <h5 className="footerText">Ranch Address:</h5>
-                <h5 className="footerText">153 East 2550 North, North Ogden, Utah, 84414</h5>
+                <div className="contactUsDiv">
+                    <h3 className="footerText contactText">Contact Us</h3>
+                    <h5 className="footerText contactText">Phone Number: (801) 735-4675</h5>
+                </div>
+                <div className="contactUsDiv">
+                    <h5 className="footerText contactText">Ranch Address:</h5>
+                    <h5 className="footerText contactText">153 East 2550 North, North Ogden, Utah, 84414</h5>
+                </div>
             </div>
         </div>
     );

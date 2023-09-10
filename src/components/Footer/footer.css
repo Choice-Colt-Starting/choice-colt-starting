@@ -36,7 +36,6 @@
     justify-content:space-evenly;
     width:33.333vw;
     align-items:center;
-    background-color:red;
 }
 #column3{
     display:flex;
@@ -44,4 +43,13 @@
     justify-content:space-evenly;
     width:33.333vw;
     align-items:center;
+}
+.contactUsDiv{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contactText{
+    margin-top:20px;
+    margin-bottom:0px;
 }
