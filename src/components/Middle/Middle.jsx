@@ -6,7 +6,6 @@ const Middle=()=>{
     return(
         <div id="middleDiv">
             <img id="steedPic"src={steedPic} alt="logo" />
-            <p>Slideshow here</p>
             <div id="seperateDiv" />
             <div>
                 <Discover />
