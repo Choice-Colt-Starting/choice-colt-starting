@@ -6,7 +6,7 @@ import{Discover}from"./Discover/Discover.jsx";
 
 const LandingPage=props=>{
     return(
-        <div id={props.stephenClicked===true?"none":"middleDiv"}>
+        <div id={props.stephenClicked===false?"middleDiv":"none"}>
             <img id="steedPic"src={steedPic} alt="logo" />
             <div id="seperateDiv" />
             <div>
