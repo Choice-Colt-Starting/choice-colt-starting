@@ -8,11 +8,11 @@ import{ContactUs}from"./ContactUs/ContactUs.jsx";
 const Middle=(props)=>{
     return(
         <>
-            <LandingPage stephenClicked={props.stephenClicked} />
+            <LandingPage landingPageClicked={props.landingPageClicked}  />
             <StephenPage stephenClicked={props.stephenClicked} />
-            <TrainingProgramPage />
-            <HorsesReviewsPage />
-            <ContactUs />
+            <TrainingProgramPage trainingProgramClicked={props.trainingProgramClicked} />
+            <HorsesReviewsPage horsesReviewsClicked={props.horsesReviewsClicked} />
+            <ContactUs contactUsClicked={props.contactUsClicked} />
         </>
     );
     };
