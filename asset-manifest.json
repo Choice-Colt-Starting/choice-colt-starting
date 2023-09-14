@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/choice-colt-starting/static/css/main.1d9ef4c6.css",
-    "main.js": "/choice-colt-starting/static/js/main.6e3b32be.js",
+    "main.css": "/choice-colt-starting/static/css/main.a0c90398.css",
+    "main.js": "/choice-colt-starting/static/js/main.fc020ae9.js",
     "static/js/787.ac298769.chunk.js": "/choice-colt-starting/static/js/787.ac298769.chunk.js",
     "static/media/Steed_and_horse.png": "/choice-colt-starting/static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/discoverBackPic.jpg": "/choice-colt-starting/static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
@@ -11,12 +11,12 @@
     "static/media/facebookIcon.jpg": "/choice-colt-starting/static/media/facebookIcon.f7c89c071d311db46801.jpg",
     "static/media/youtubeIcon.jpg": "/choice-colt-starting/static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "/choice-colt-starting/index.html",
-    "main.1d9ef4c6.css.map": "/choice-colt-starting/static/css/main.1d9ef4c6.css.map",
-    "main.6e3b32be.js.map": "/choice-colt-starting/static/js/main.6e3b32be.js.map",
+    "main.a0c90398.css.map": "/choice-colt-starting/static/css/main.a0c90398.css.map",
+    "main.fc020ae9.js.map": "/choice-colt-starting/static/js/main.fc020ae9.js.map",
     "787.ac298769.chunk.js.map": "/choice-colt-starting/static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d9ef4c6.css",
-    "static/js/main.6e3b32be.js"
+    "static/css/main.a0c90398.css",
+    "static/js/main.fc020ae9.js"
   ]
 }
