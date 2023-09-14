@@ -7,11 +7,11 @@
     align-items:center;
     height:auto;
     width:100vw;
+    background-color:lightgrey;
 }
 #programContainer{
-    background-color:red;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
     width:85vw;
     height:70vh;
@@ -21,7 +21,6 @@
     height:90%;
     width:30%;
     flex-direction:column;
-    background-color:green;
 }
 .dayDivs{
     height:10%;
@@ -29,16 +28,18 @@
     align-items:center;
     justify-content:center;
     border-style:solid;
-    border-width:7px;
+    border-width:3px;
     border-color:black;
     background-color:white;
+}
+.dayText{
+    text-align:center;
 }
 #exercisesParentDiv{
     display:flex;
     height:90%;
     width:30%;
     flex-direction:column;
-    background-color:orange;
 }
 .exercisesDivs{
     height:10%;
@@ -46,14 +47,31 @@
     align-items:center;
     justify-content:center;
     border-style:solid;
-    border-width:7px;
+    border-width:3px;
     border-color:black;
-    background-color:yellow;
+    text-align:center;
+    background-color:white;
 }
 #videoParentDiv{
     display:flex;
     height:90%;
     width:30%;
     flex-direction:column;
-    background-color:blue;
 }
+.videosDivs{
+    height:10%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    background-color:white;
+}
+.videosText{
+    text-decoration:none;
+    color:black;
+    font-weight:700;
+}
+
