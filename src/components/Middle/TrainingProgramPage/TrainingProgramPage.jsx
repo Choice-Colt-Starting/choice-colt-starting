@@ -31,6 +31,10 @@ const TrainingProgramPage=(props)=>{
                     <div className="exercisesDivs">
                         <h4 className="exercisesText">Roundpenning</h4>
                     </div>
+                    <div className="exercisesDivs">
+                        <h4 className="exercisesText">
+                            hi</h4>
+                    </div>
                 </div>
                 <div id="videoParentDiv">
                 </div>
