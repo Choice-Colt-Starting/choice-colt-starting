@@ -8,13 +8,12 @@ function App() {
   const [stephenClicked,setStephenClicked]=react.useState(false);
   const [trainingProgramClicked,setTrainingProgramClicked]=react.useState(false);
   const [horsesReviewsClicked,setHorsesReviewsClicked]=react.useState(false);
-  const [contactUsClicked,setContactUsClicked]=react.useState(false);
 
   return (
     <>
-        <Header setLandingPageClicked={setLandingPageClicked} setStephenClicked={setStephenClicked} setTrainingProgramClicked={setTrainingProgramClicked} setHorsesReviewsClicked={setHorsesReviewsClicked} setContactUsClicked={setContactUsClicked} />
+        <Header setLandingPageClicked={setLandingPageClicked} setStephenClicked={setStephenClicked} setTrainingProgramClicked={setTrainingProgramClicked} setHorsesReviewsClicked={setHorsesReviewsClicked} />
 
-        <Middle landingPageClicked={landingPageClicked} stephenClicked={stephenClicked} trainingProgramClicked={trainingProgramClicked} horsesReviewsClicked={horsesReviewsClicked} contactUsClicked={contactUsClicked} />
+        <Middle landingPageClicked={landingPageClicked} stephenClicked={stephenClicked} trainingProgramClicked={trainingProgramClicked} horsesReviewsClicked={horsesReviewsClicked} />
         
         <Footer />
     </>

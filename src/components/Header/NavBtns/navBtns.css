@@ -3,7 +3,7 @@
     flex-direction:row;
     position:relative;
     bottom:40px;
-    justify-content:space-evenly;
+    justify-content:space-around;
     width:100vw;
     background-color:rgb(89,35,9);
     height:40px;
@@ -16,6 +16,8 @@
 .NavBtns{
     color:white;
     text-decoration:underline;
+    margin-left:10px;
+    margin-right:10px;
 }
 .NavBtns:hover{
     cursor:pointer;
