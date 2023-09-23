@@ -30,7 +30,6 @@
     border-bottom-style:solid;
     border-right-style:hidden;
     border-left-style:solid;
-    border-right-width:0px;
     border-width:3px;
     border-color:black;
     background-color:white;
@@ -53,8 +52,6 @@
     border-bottom-style:solid;
     border-left-style:hidden;
     border-right-style:hidden;
-    border-left-width:0px;
-    border-right-width:0px;
     border-width:3px;
     border-color:black;
     text-align:center;
@@ -76,7 +73,6 @@
     border-bottom-style:solid;
     border-left-style:hidden;
     border-right-style:solid;
-    border-left-width:0px;
     border-width:3px;
     border-color:black;
     background-color:white;
