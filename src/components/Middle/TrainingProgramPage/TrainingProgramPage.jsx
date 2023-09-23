@@ -2,7 +2,7 @@ import"./trainingProgramPage.css";
 
 const TrainingProgramPage=(props)=>{
     return(
-        <div id={props.trainingProgramClicked===false?"none":"parentDiv"}>
+        <div id={props.trainingProgramClicked===false?"none":"trainingParentDiv"}>
             <div id="programContainer">
                 <div id="daysParentDiv">
                     <div className="dayDivs">
