@@ -1,7 +1,7 @@
 {
   "name": "choice-colt-starting",
   "version": "0.1.0",
-  "homepage": "https://choice-colt-starting.github.io/choice-colt-starting",
+  "homepage": "https://Choice-Colt-Starting.github.io/choice-colt-starting",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
