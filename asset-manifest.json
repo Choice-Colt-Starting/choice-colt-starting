@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.4bc6983b.css",
-    "main.js": "./static/js/main.f564a661.js",
+    "main.css": "./static/css/main.75097e7b.css",
+    "main.js": "./static/js/main.8bdf32e7.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
+    "static/media/story.png": "./static/media/story.1f3a9fa61bfa4e8f69ff.png",
+    "static/media/jake.png": "./static/media/jake.3cb908162a4616c91947.png",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/discoverBackPic.jpg": "./static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
+    "static/media/roo.jpeg": "./static/media/roo.6f95f3890ae49ed03268.jpeg",
     "static/media/instagramIcon.jpg": "./static/media/instagramIcon.cc5d72fc2ece20a90aed.jpg",
+    "static/media/starsPic.png": "./static/media/starsPic.d0487b7bddcf66b78b3a.png",
     "static/media/headerLogo.png": "./static/media/headerLogo.c4da0a59232edf3a6b53.png",
     "static/media/tiktokIcon.jpg": "./static/media/tiktokIcon.a1c2de0efc81d215b8f7.jpg",
     "static/media/facebookIcon.jpg": "./static/media/facebookIcon.f7c89c071d311db46801.jpg",
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
-    "main.4bc6983b.css.map": "./static/css/main.4bc6983b.css.map",
-    "main.f564a661.js.map": "./static/js/main.f564a661.js.map",
+    "main.75097e7b.css.map": "./static/css/main.75097e7b.css.map",
+    "main.8bdf32e7.js.map": "./static/js/main.8bdf32e7.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc6983b.css",
-    "static/js/main.f564a661.js"
+    "static/css/main.75097e7b.css",
+    "static/js/main.8bdf32e7.js"
   ]
 }
