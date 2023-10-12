@@ -2,5 +2,64 @@
     display:none;
 }
 #bioDiv{
-    background-color:gray;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    background-color:lightgray;
+    height:700px;
+}
+#div1{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90vw;
+    background-color:white;
+}
+#div2{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90vw;
+    background-color:white;
+}
+#div3{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:90vw;
+    background-color:white;
+}
+.paragraphs{
+    width:60vw;
+}
+.mePics{
+    height:200px;
+    width:200px;
+}
+@media(max-width:1100px){
+    #bioDiv{
+        height:1500px;
+    }
+    #div1{
+        flex-direction:column;
+    }
+    #div2{
+        flex-direction:column;
+    }
+    #div3{
+        flex-direction:column;
+    }
+    .mePics{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .paragraphs{
+        width:80vw;
+    }
+}
+@media(max-width:770px){
+    #bioDiv{
+        height:2600px;
+    }
 }
