@@ -19,6 +19,7 @@
     font-size:25px;
     padding-left:15px;
     padding-right:15px;
+    color:black;
 }
 #mapsLink:hover{
     border-style:solid;
