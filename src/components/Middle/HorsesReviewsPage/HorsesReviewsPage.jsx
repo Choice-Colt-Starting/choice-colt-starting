@@ -1,8 +1,9 @@
 import"./horsesReviewsPage.css";
 import starsPic from "./images/starsPic.png";
-import sandeePic from "./images/jake.png";
-import nikkiPic from "./images/story.png";
+import sandeePic from "./images/jake.jpeg";
+import nikkiPic from "./images/story.jpeg";
 import nikki2Pic from "./images/roo.jpeg";
+import orluffPic from "./images/orluff.jpeg";
 
 function HorsesReviewsPage(props){
     return(
@@ -16,6 +17,15 @@ function HorsesReviewsPage(props){
                 </div>
                 <div className="wordsDiv">
                     <p className="words">If anyone is looking for a good colt starter in the Ogden area, Stephen Burggraaf with Choice Colt Starting did a great job getting the first rides on Jake! Gets em out on the roads and on the trails... He's really good with them!</p>
+                </div>
+            </div>
+            <div className="reviewDiv">
+                <div className="ownerDiv">
+                    <h4 className="name">Orluff O:</h4>
+                    <img className="horsePic"src={orluffPic}alt="horse" />
+                </div>
+                <div className="wordsDiv">
+                    <p className="words">This kid does an amazing job with horses, that aren't broke yet! No one, I know, puts in the time, Stephen Burggraaf does.</p>
                 </div>
             </div>
             <div className="reviewDiv">
