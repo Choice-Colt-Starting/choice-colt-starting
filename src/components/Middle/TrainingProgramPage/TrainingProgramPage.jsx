@@ -1,6 +1,6 @@
 import"./trainingProgramPage.css";
 
-const TrainingProgramPage = (props) => {
+const TrainingProgramPage = ({ trainingProgramClicked }) => {
 
     // TODO: Make video links unique
     const trainingPrograms = [
@@ -16,7 +16,7 @@ const TrainingProgramPage = (props) => {
     ]
 
     return(
-        <div id={props.trainingProgramClicked===false?"none":"trainingParentDiv"}>
+        <div id={ trainingProgramClicked ? "trainingParentDiv" : "none" }>
             <div id="programContainer">
                 <div id="daysParentDiv">
                     {trainingPrograms.map(({ day }) => {
