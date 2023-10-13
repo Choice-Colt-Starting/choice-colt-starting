@@ -1,20 +1,55 @@
-import"./navBtns.css";
+import { NavBtn } from "./NavBtn/NavBtn";
+import "./navBtns.css";
 
-const NavBtns=props=>{
-    return(
+const NavBtns = (
+    { 
+        landingPageClicked, setLandingPageClicked, 
+        stephenClicked, setStephenClicked,
+        trainingProgramClicked, setTrainingProgramClicked,
+        horsesReviewsClicked, setHorsesReviewsClicked 
+    }) => {
+
+    function resetBtns() {
+        setLandingPageClicked(false);
+        setStephenClicked(false);
+        setTrainingProgramClicked(false);
+        setHorsesReviewsClicked(false);
+    }
+
+    return (
         <div id="navBtnsParentDiv">
-            <div className={props.landingPageClicked?"darkNavDiv":''}>
-                <h4 className="NavBtns" onClick={()=>{props.setLandingPageClicked(true);props.setStephenClicked(false);props.setTrainingProgramClicked(false);props.setHorsesReviewsClicked(false);}}>Home</h4>
-            </div>
-            <div className={!props.stephenClicked?'':"darkNavDiv"}>
-                <h4 className="NavBtns" onClick={()=>{props.setLandingPageClicked(false);props.setStephenClicked(true);props.setTrainingProgramClicked(false);props.setHorsesReviewsClicked(false);}}>Meet Stephen</h4>
-            </div>
-            <div className={!props.trainingProgramClicked?'':"darkNavDiv"}>
-                <h4 className="NavBtns" onClick={()=>{props.setLandingPageClicked(false);props.setStephenClicked(false);props.setTrainingProgramClicked(true);props.setHorsesReviewsClicked(false);}}>Training Program</h4>
-            </div>
-            <div className={!props.horsesReviewsClicked?'':"darkNavDiv"}>
-                <h4 className="NavBtns" onClick={()=>{props.setLandingPageClicked(false);props.setStephenClicked(false);props.setTrainingProgramClicked(false);props.setHorsesReviewsClicked(true);}}>Horses and Reviews</h4>
-            </div>
+            <NavBtn 
+                title={'Home'}
+                isClicked={landingPageClicked} 
+                onClick={() => { 
+                    resetBtns();
+                    setLandingPageClicked(true);
+                }} 
+            />
+            <NavBtn 
+                title={'Meet Stephen'}
+                isClicked={stephenClicked} 
+                onClick={() => { 
+                    resetBtns();
+                    setStephenClicked(true);
+                }} 
+            />
+            <NavBtn 
+                title={'Training Program'}
+                isClicked={trainingProgramClicked} 
+                onClick={() => { 
+                    resetBtns();
+                    setTrainingProgramClicked(true);
+                }} 
+            />
+            <NavBtn 
+                title={'Horses and Reviews'}
+                isClicked={horsesReviewsClicked} 
+                onClick={() => { 
+                    resetBtns();
+                    setHorsesReviewsClicked(true);
+                }} 
+            />
         </div>
     );
 };
