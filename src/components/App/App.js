@@ -2,31 +2,20 @@ import { Header } from "../Header/Header.jsx";
 import { Middle } from"../Middle/Middle.jsx";
 import { Footer } from "../Footer/Footer.jsx";
 import react from "react";
+import SelectedPageClickedReducer from "./SelectedPageClickedReducer.js";
 
 function App() {
-  const [landingPageClicked,setLandingPageClicked] = react.useState(true);
-  const [stephenClicked,setStephenClicked] = react.useState(false);
-  const [trainingProgramClicked,setTrainingProgramClicked] = react.useState(false);
-  const [horsesReviewsClicked,setHorsesReviewsClicked] = react.useState(false);
+  const [state, dispatch] = react.useReducer(SelectedPageClickedReducer, {
+    landingPageClicked: true,
+    stephenClicked: false,
+    trainingProgramClicked: false,
+    horsesReviewsClicked: false
+  })
 
   return (
     <>
-        <Header 
-          landingPageClicked={landingPageClicked}
-          setLandingPageClicked={setLandingPageClicked} 
-          stephenClicked={stephenClicked}
-          setStephenClicked={setStephenClicked} 
-          trainingProgramClicked={trainingProgramClicked}
-          setTrainingProgramClicked={setTrainingProgramClicked} 
-          horsesReviewsClicked={horsesReviewsClicked}
-          setHorsesReviewsClicked={setHorsesReviewsClicked} 
-        />
-        <Middle 
-          landingPageClicked={landingPageClicked} 
-          stephenClicked={stephenClicked} 
-          trainingProgramClicked={trainingProgramClicked} 
-          horsesReviewsClicked={horsesReviewsClicked} 
-        />
+        <Header state={state} dispatch={dispatch} />
+        <Middle state={state} />
         <Footer />
     </>
   );

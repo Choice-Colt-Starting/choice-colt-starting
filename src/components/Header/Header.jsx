@@ -2,7 +2,7 @@ import"./header.css";
 import headerLogo from"./headerLogo.png";
 import{NavBtns}from"./NavBtns/NavBtns.jsx";
 
-function Header(props){
+function Header({ state, dispatch }){
     return(
         <div id="headerParentDiv">
             <div id="topHeaderDiv">
@@ -12,27 +12,13 @@ function Header(props){
                 <div id="rightHeaderDiv">
                     <img 
                         id="headerLogo"
-                        onClick={() => {
-                            props.setLandingPageClicked(true);
-                            props.setStephenClicked(false);
-                            props.setTrainingProgramClicked(false);
-                            props.setHorsesReviewsClicked(false);
-                        }} 
+                        onClick={() => dispatch({ type: 'setLandingPageClicked' })} 
                         src={headerLogo} alt="Choice Colt Starting"
                     />
                 </div>
             </div>
             <div id="bottomHeaderDiv">
-                <NavBtns 
-                    landingPageClicked={ props.landingPageClicked }
-                    setLandingPageClicked={ props.setLandingPageClicked }
-                    stephenClicked={ props.stephenClicked }
-                    setStephenClicked={ props.setStephenClicked } 
-                    trainingProgramClicked={ props.trainingProgramClicked }
-                    setTrainingProgramClicked={ props.setTrainingProgramClicked } 
-                    horsesReviewsClicked={ props.horsesReviewsClicked }
-                    setHorsesReviewsClicked={ props.setHorsesReviewsClicked } 
-                />
+                <NavBtns state={state} dispatch={dispatch} />
             </div>
         </div>
     );

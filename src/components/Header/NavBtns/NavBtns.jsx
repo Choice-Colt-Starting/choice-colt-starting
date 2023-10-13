@@ -1,56 +1,32 @@
 import { NavBtn } from "./NavBtn/NavBtn";
 import "./navBtns.css";
 
-const NavBtns = (
-    { 
-        landingPageClicked, setLandingPageClicked, 
-        stephenClicked, setStephenClicked,
-        trainingProgramClicked, setTrainingProgramClicked,
-        horsesReviewsClicked, setHorsesReviewsClicked 
-    }) => {
-
-    function resetBtns() {
-        setLandingPageClicked(false);
-        setStephenClicked(false);
-        setTrainingProgramClicked(false);
-        setHorsesReviewsClicked(false);
-    }
+const NavBtns = ({ state, dispatch }) => {
 
     return (
         <div id="navBtnsParentDiv">
             <NavBtn 
                 title={'Home'}
-                isClicked={landingPageClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setLandingPageClicked(true);
-                }} 
+                isClicked={state.landingPageClicked} 
+                onClick={() => dispatch({ type: 'setLandingPageClicked' })} 
             />
             <NavBtn 
                 title={'Meet Stephen'}
-                isClicked={stephenClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setStephenClicked(true);
-                }} 
+                isClicked={state.stephenClicked} 
+                onClick={() => dispatch({ type: 'setStephenClicked' })} 
             />
             <NavBtn 
                 title={'Training Program'}
-                isClicked={trainingProgramClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setTrainingProgramClicked(true);
-                }} 
+                isClicked={state.trainingProgramClicked} 
+                onClick={() => dispatch({ type: 'setTrainingProgramClicked' })} 
             />
             <NavBtn 
                 title={'Horses and Reviews'}
-                isClicked={horsesReviewsClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setHorsesReviewsClicked(true);
-                }} 
+                isClicked={state.horsesReviewsClicked} 
+                onClick={() => dispatch({ type: 'setHorsesReviewsClicked' })} 
             />
         </div>
     );
 };
+
 export{NavBtns};

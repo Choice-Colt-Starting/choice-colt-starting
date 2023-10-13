@@ -4,13 +4,13 @@ import{StephenPage}from"./StephenPage/StephenPage.jsx";
 import{TrainingProgramPage}from"./TrainingProgramPage/TrainingProgramPage.jsx";
 import{HorsesReviewsPage}from"./HorsesReviewsPage/HorsesReviewsPage.jsx";
 
-const Middle=(props)=>{
+const Middle=({ state })=>{
     return(
         <>
-            <LandingPage landingPageClicked={props.landingPageClicked}  />
-            <StephenPage stephenClicked={props.stephenClicked} />
-            <TrainingProgramPage trainingProgramClicked={props.trainingProgramClicked} />
-            <HorsesReviewsPage horsesReviewsClicked={props.horsesReviewsClicked} />
+            <LandingPage landingPageClicked={state.landingPageClicked}  />
+            <StephenPage stephenClicked={state.stephenClicked} />
+            <TrainingProgramPage trainingProgramClicked={state.trainingProgramClicked} />
+            <HorsesReviewsPage horsesReviewsClicked={state.horsesReviewsClicked} />
         </>
     );
     };
