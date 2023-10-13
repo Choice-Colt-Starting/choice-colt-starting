@@ -1,13 +1,13 @@
-import{Header}from"../Header/Header.jsx";
-import{Middle}from"../Middle/Middle.jsx";
-import{Footer}from"../Footer/Footer.jsx";
-import react from"react";
+import { Header } from "../Header/Header.jsx";
+import { Middle } from"../Middle/Middle.jsx";
+import { Footer } from "../Footer/Footer.jsx";
+import react from "react";
 
 function App() {
-  const [landingPageClicked,setLandingPageClicked]=react.useState(true);
-  const [stephenClicked,setStephenClicked]=react.useState(false);
-  const [trainingProgramClicked,setTrainingProgramClicked]=react.useState(false);
-  const [horsesReviewsClicked,setHorsesReviewsClicked]=react.useState(false);
+  const [landingPageClicked,setLandingPageClicked] = react.useState(true);
+  const [stephenClicked,setStephenClicked] = react.useState(false);
+  const [trainingProgramClicked,setTrainingProgramClicked] = react.useState(false);
+  const [horsesReviewsClicked,setHorsesReviewsClicked] = react.useState(false);
 
   return (
     <>

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const NavBtn = ({ title, isClicked, onClick }) => {
     return (
         <div className={ isClicked ? "darkNavDiv" : ''}>
