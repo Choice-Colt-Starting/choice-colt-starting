@@ -11,10 +11,22 @@ function App() {
 
   return (
     <>
-        <Header landingPageClicked={landingPageClicked}setLandingPageClicked={setLandingPageClicked} stephenClicked={stephenClicked}setStephenClicked={setStephenClicked} trainingProgramClicked={trainingProgramClicked}setTrainingProgramClicked={setTrainingProgramClicked} horsesReviewsClicked={horsesReviewsClicked}setHorsesReviewsClicked={setHorsesReviewsClicked} />
-
-        <Middle landingPageClicked={landingPageClicked} stephenClicked={stephenClicked} trainingProgramClicked={trainingProgramClicked} horsesReviewsClicked={horsesReviewsClicked} />
-        
+        <Header 
+          landingPageClicked={landingPageClicked}
+          setLandingPageClicked={setLandingPageClicked} 
+          stephenClicked={stephenClicked}
+          setStephenClicked={setStephenClicked} 
+          trainingProgramClicked={trainingProgramClicked}
+          setTrainingProgramClicked={setTrainingProgramClicked} 
+          horsesReviewsClicked={horsesReviewsClicked}
+          setHorsesReviewsClicked={setHorsesReviewsClicked} 
+        />
+        <Middle 
+          landingPageClicked={landingPageClicked} 
+          stephenClicked={stephenClicked} 
+          trainingProgramClicked={trainingProgramClicked} 
+          horsesReviewsClicked={horsesReviewsClicked} 
+        />
         <Footer />
     </>
   );
