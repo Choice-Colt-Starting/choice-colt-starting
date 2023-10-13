@@ -12,4 +12,4 @@ function HorseReview({ name, image, review }) {
     );
 }
 
-export {HorseReview};
+export { HorseReview };
