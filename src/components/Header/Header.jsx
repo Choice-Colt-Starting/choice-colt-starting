@@ -14,7 +14,7 @@ function Header(props){
                 </div>
             </div>
             <div id="bottomHeaderDiv">
-                <NavBtns setLandingPageClicked={props.setLandingPageClicked} setStephenClicked={props.setStephenClicked} setTrainingProgramClicked={props.setTrainingProgramClicked} setHorsesReviewsClicked={props.setHorsesReviewsClicked} setContactUsClicked={props.setContactUsClicked}  />
+                <NavBtns landingPageClicked={props.landingPageClicked}setLandingPageClicked={props.setLandingPageClicked} stephenClicked={props.stephenClicked}setStephenClicked={props.setStephenClicked} trainingProgramClicked={props.trainingProgramClicked}setTrainingProgramClicked={props.setTrainingProgramClicked} horsesReviewsClicked={props.horsesReviewsClicked}setHorsesReviewsClicked={props.setHorsesReviewsClicked} />
             </div>
         </div>
     );
