@@ -1,4 +1,6 @@
-function SelectedPageClickedReducer(state, action) {
+import { useReducer } from 'react';
+
+const reducer = (state, action) => {
     switch (action.type) {
         case 'setLandingPageClicked':
             return {
@@ -37,6 +39,25 @@ function SelectedPageClickedReducer(state, action) {
                 ...state
             }
     }
+};
+
+const initialState = {
+    landingPageClicked: true,
+    stephenClicked: false,
+    trainingProgramClicked: false,
+    horsesReviewsClicked: false
 }
 
-export default SelectedPageClickedReducer;
+function usePagesClicked() {
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+    return {
+        pages: state,
+        setLandingPage: () => dispatch({ type: "setLandingPageClicked" }),
+        setStephenPage: () => dispatch({ type: "setStephenClicked" }),
+        setTrainingProgramPage: () => dispatch({ type: "setTrainingProgramClicked" }),
+        setHorsesReviewsPage: () => dispatch({ type: "setHorsesReviewsClicked" })
+    }
+}
+
+export { usePagesClicked };

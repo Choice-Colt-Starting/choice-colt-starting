@@ -1,29 +1,34 @@
 import { NavBtn } from "./NavBtn/NavBtn";
 import "./navBtns.css";
 
-const NavBtns = ({ state, dispatch }) => {
+function NavBtns({
+    pages,
+    setLandingPage,
+    setStephenPage,
+    setTrainingProgramPage,
+    setHorsesReviewsPage }) {
 
     return (
         <div id="navBtnsParentDiv">
-            <NavBtn 
+            <NavBtn
                 title={'Home'}
-                isClicked={state.landingPageClicked} 
-                onClick={() => dispatch({ type: 'setLandingPageClicked' })} 
+                isClicked={pages.landingPageClicked}
+                onClick={() => setLandingPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Meet Stephen'}
-                isClicked={state.stephenClicked} 
-                onClick={() => dispatch({ type: 'setStephenClicked' })} 
+                isClicked={pages.stephenClicked}
+                onClick={() => setStephenPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Training Program'}
-                isClicked={state.trainingProgramClicked} 
-                onClick={() => dispatch({ type: 'setTrainingProgramClicked' })} 
+                isClicked={pages.trainingProgramClicked}
+                onClick={() => setTrainingProgramPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Horses and Reviews'}
-                isClicked={state.horsesReviewsClicked} 
-                onClick={() => dispatch({ type: 'setHorsesReviewsClicked' })} 
+                isClicked={pages.horsesReviewsClicked}
+                onClick={() => setHorsesReviewsPage()}
             />
         </div>
     );

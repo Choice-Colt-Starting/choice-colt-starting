@@ -4,7 +4,7 @@ import me2 from "./images/me2.jpeg"
 import me3 from "./images/me3.jpeg"
 import me4 from "./images/me4.jpeg"
 
-function StephenPage({ stephenClicked }){
+function StephenPage({ stephenClicked }) {
     return(
         <div id={ stephenClicked ? "bioDiv" : "none"}>
             <div id="div1">

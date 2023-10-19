@@ -1,17 +1,19 @@
-import"./middle.css";
-import{LandingPage}from"./LandingPage/LandingPage.jsx";
-import{StephenPage}from"./StephenPage/StephenPage.jsx";
-import{TrainingProgramPage}from"./TrainingProgramPage/TrainingProgramPage.jsx";
-import{HorsesReviewsPage}from"./HorsesReviewsPage/HorsesReviewsPage.jsx";
+import "./middle.css";
+import { LandingPage } from "./LandingPage/LandingPage.jsx";
+import { StephenPage } from "./StephenPage/StephenPage.jsx";
+import { TrainingProgramPage } from "./TrainingProgramPage/TrainingProgramPage.jsx";
+import { HorsesReviewsPage } from "./HorsesReviewsPage/HorsesReviewsPage.jsx";
 
-const Middle=({ state })=>{
+const Middle = ({ pages }) => {
+
     return(
         <>
-            <LandingPage landingPageClicked={state.landingPageClicked}  />
-            <StephenPage stephenClicked={state.stephenClicked} />
-            <TrainingProgramPage trainingProgramClicked={state.trainingProgramClicked} />
-            <HorsesReviewsPage horsesReviewsClicked={state.horsesReviewsClicked} />
+            <LandingPage landingPageClicked={pages.landingPageClicked}  />
+            <StephenPage stephenClicked={pages.stephenClicked} />
+            <TrainingProgramPage trainingProgramClicked={pages.trainingProgramClicked} />
+            <HorsesReviewsPage horsesReviewsClicked={pages.horsesReviewsClicked} />
         </>
     );
-    };
-export{Middle};
+};
+
+export { Middle };
