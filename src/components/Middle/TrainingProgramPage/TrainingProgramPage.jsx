@@ -1,101 +1,53 @@
 import"./trainingProgramPage.css";
 
-const TrainingProgramPage=(props)=>{
+const TrainingProgramPage = ({ trainingProgramClicked }) => {
+
+    // TODO: Make video links unique
+    const trainingPrograms = [
+        { day: "Day 1-3", exercise: "Round Penning", video: "https://www.youtube.com" },
+        { day: "Day 4-5", exercise: "Yield Hind Quarters and Backing Up", video: "https://www.youtube.com" },
+        { day: "Day 6-8", exercise: "Lunging and Pick Up Feet", video: "https://www.youtube.com" },
+        { day: "Day 9-11", exercise: "Jeffery's Method and Snaffle Bit Flexion", video: "https://www.youtube.com" },
+        { day: "Day 12-14", exercise: "Lunging With Saddle", video: "https://www.youtube.com" },
+        { day: "Day 15", exercise: "First Ride and Tie Up", video: "https://www.youtube.com" },
+        { day: "Day 16-20", exercise: "One Rein Stops and Cruising Lesson", video: "https://www.youtube.com" },
+        { day: "Day 21-24", exercise: "Follow The Fence and Diagonals", video: "https://www.youtube.com" },
+        { day: "Day 25-90", exercise: "Trail Rides", video: "https://www.youtube.com" }
+    ]
+
     return(
-        <div id={props.trainingProgramClicked===false?"none":"trainingParentDiv"}>
+        <div id={ trainingProgramClicked ? "trainingParentDiv" : "none" }>
             <div id="programContainer">
                 <div id="daysParentDiv">
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 1-3</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 4-5</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 6-8</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 9-11</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 12-14</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 15</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 16-20</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 21-24</h4>
-                    </div>
-                    <div className="dayDivs">
-                        <h4 className="dayText">Day 25-90</h4>
-                    </div>
+                    {trainingPrograms.map(({ day }) => {
+                        return (
+                            <div className="dayDivs">
+                                <h4 className="dayText">{day}</h4>
+                            </div>
+                        );
+                    })}
                 </div>
                 <div id="exercisesParentDiv">
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">Round Penning</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">
-                            Yield Hind Quarters and Backing Up</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">Lunging and Pick Up Feet</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">
-                            Jeffery's Method and Snaffle Bit Flexion</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">Lunging With Saddle</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">First Ride and Tie Up</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">One Rein Stops and Cruising Lesson</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">Follow The Fence and Diagonals</h4>
-                    </div>
-                    <div className="exercisesDivs">
-                        <h4 className="exercisesText">Trail Rides</h4>
-                    </div>
+                    {trainingPrograms.map(({ exercise }) => {
+                        return (
+                            <div className="exercisesDivs">
+                                <h4 className="exercisesText">{exercise}</h4>
+                            </div>
+                        );
+                    })}
                 </div>
                 <div id="videoParentDiv">
-                <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
-                    <div className="videosDivs">
-                        <a className="videosText" href="https://www.youtube.com">Click Here For Example:</a>
-                    </div>
+                    {trainingPrograms.map(({ video }) => {
+                        return (
+                            <div className="videosDivs">
+                                <a className="videosText" href={video}>Click Here For Example:</a>
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </div>
     );
 };
 
-export{TrainingProgramPage};
+export { TrainingProgramPage };

@@ -1,56 +1,37 @@
 import { NavBtn } from "./NavBtn/NavBtn";
 import "./navBtns.css";
 
-const NavBtns = (
-    { 
-        landingPageClicked, setLandingPageClicked, 
-        stephenClicked, setStephenClicked,
-        trainingProgramClicked, setTrainingProgramClicked,
-        horsesReviewsClicked, setHorsesReviewsClicked 
-    }) => {
-
-    function resetBtns() {
-        setLandingPageClicked(false);
-        setStephenClicked(false);
-        setTrainingProgramClicked(false);
-        setHorsesReviewsClicked(false);
-    }
+function NavBtns({
+    pages,
+    setLandingPage,
+    setStephenPage,
+    setTrainingProgramPage,
+    setHorsesReviewsPage }) {
 
     return (
         <div id="navBtnsParentDiv">
-            <NavBtn 
+            <NavBtn
                 title={'Home'}
-                isClicked={landingPageClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setLandingPageClicked(true);
-                }} 
+                isClicked={pages.landingPageClicked}
+                onClick={() => setLandingPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Meet Stephen'}
-                isClicked={stephenClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setStephenClicked(true);
-                }} 
+                isClicked={pages.stephenClicked}
+                onClick={() => setStephenPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Training Program'}
-                isClicked={trainingProgramClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setTrainingProgramClicked(true);
-                }} 
+                isClicked={pages.trainingProgramClicked}
+                onClick={() => setTrainingProgramPage()}
             />
-            <NavBtn 
+            <NavBtn
                 title={'Horses and Reviews'}
-                isClicked={horsesReviewsClicked} 
-                onClick={() => { 
-                    resetBtns();
-                    setHorsesReviewsClicked(true);
-                }} 
+                isClicked={pages.horsesReviewsClicked}
+                onClick={() => setHorsesReviewsPage()}
             />
         </div>
     );
 };
+
 export{NavBtns};
