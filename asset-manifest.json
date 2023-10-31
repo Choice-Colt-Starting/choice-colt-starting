@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.0e6f853b.css",
-    "main.js": "./static/js/main.219c497e.js",
+    "main.js": "./static/js/main.3547df4b.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/me3.jpeg": "./static/media/me3.37b42ae67d1b73357e33.jpeg",
     "static/media/orluff.jpeg": "./static/media/orluff.14507baec278d1de9cb5.jpeg",
     "static/media/discoverBackPic.jpg": "./static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
-    "static/media/me1.jpeg": "./static/media/me1.8d8129b0a1b04c27bfd0.jpeg",
     "static/media/me4.jpeg": "./static/media/me4.7b95720c0f2bc218e17a.jpeg",
     "static/media/instagramIcon.jpg": "./static/media/instagramIcon.cc5d72fc2ece20a90aed.jpg",
     "static/media/roo.jpeg": "./static/media/roo.75440cc5e76659e0a2e5.jpeg",
@@ -21,11 +20,11 @@
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
     "main.0e6f853b.css.map": "./static/css/main.0e6f853b.css.map",
-    "main.219c497e.js.map": "./static/js/main.219c497e.js.map",
+    "main.3547df4b.js.map": "./static/js/main.3547df4b.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e6f853b.css",
-    "static/js/main.219c497e.js"
+    "static/js/main.3547df4b.js"
   ]
 }
