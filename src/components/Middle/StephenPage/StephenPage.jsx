@@ -1,5 +1,4 @@
 import"./stephenPage.css";
-import me1 from "./images/me1.jpeg"
 import me2 from "./images/me2.jpeg"
 import me3 from "./images/me3.jpeg"
 import me4 from "./images/me4.jpeg"
