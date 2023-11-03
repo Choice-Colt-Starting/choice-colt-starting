@@ -5,6 +5,7 @@ import nikkiPic from "./images/story.jpeg";
 import nikki2Pic from "./images/roo.jpeg";
 import orluffPic from "./images/orluff.jpeg";
 import { HorseReview } from "./HorseReview/HorseReview";
+import{HorsesWorldMap}from"./HorsesWorldMap/HorsesWorldMap.jsx";
 
 function HorsesReviewsPage({ horsesReviewsClicked }){
 
@@ -44,6 +45,7 @@ function HorsesReviewsPage({ horsesReviewsClicked }){
                     />
                 )
             })}
+            <HorsesWorldMap />
         </div>
     );
 }

@@ -8,6 +8,9 @@ import reinStops from"./images/reinStops.png";
 import followFence from"./images/followFence.png";
 import trailRides from"./images/trailRiding.png";
 
+// Hey Tanner! The code that is commented out is stuff you helped create. I was not sure how to apply it to the stuff I had changed, so I just commented it out and we can put it back together when we code together next.
+
+
 // const TrainingProgramPage = ({ trainingProgramClicked }) => {
 
 //     // TODO: Make video links unique
