@@ -1,0 +1,95 @@
+.none{
+    display:none;
+}
+#mapTitleDiv{
+    background-color:black;
+    width:100vw;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+#hiddenNum{
+    color:white;
+    position:relative;
+    left:945px;
+    top:150px;
+    font-size:50px;
+    width:60px;
+    text-align:center;
+}
+.stateNum{
+    background-color:red;
+    position:relative;
+    left:945px;
+    top:150px;
+    font-size:50px;
+    width:60px;
+    text-align:center;
+}
+#map1{
+    width:90vw;
+    max-width:1230px;
+    filter:brightness(100%);
+}
+#idaho{
+    height:50px;
+    width:50px;
+    position:relative;
+    bottom:540px;
+    right:1025px;
+    filter:opacity(60%);
+}
+#idaho:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}
+#maine{
+    height:50px;
+    width:50px;
+    position:relative;
+    bottom:650px;
+    right:127px;
+    filter:opacity(60%);
+}
+#maine:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}
+#nevada{
+    height:50px;
+    width:50px;
+    position:relative;
+    bottom:440px;
+    right:1200px;
+    filter:opacity(60%);
+}
+#nevada:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}
+#utah{
+    height:50px;
+    width:50px;
+    position:relative;
+    bottom:470px;
+    left:260px;
+    filter:opacity(60%);
+}
+#utah:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}
+#wyoming{
+    height:50px;
+    width:50px;
+    position:relative;
+    bottom:550px;
+    left:300px;
+    filter:opacity(60%);
+}
+#wyoming:hover{
+    filter:opacity(100%);
+    cursor:pointer;
+}

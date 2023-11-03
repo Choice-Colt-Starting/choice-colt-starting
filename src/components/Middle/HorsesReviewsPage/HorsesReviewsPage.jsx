@@ -34,7 +34,8 @@ function HorsesReviewsPage({ horsesReviewsClicked }){
 
     return(
         <div id={ horsesReviewsClicked ? "horsesParentDiv" : "none" }>
-            <a id="mapsLink" href="https://www.google.com/maps/place/Choice+Colt+Starting/@41.294761,-111.9500269,17z/data=!3m1!4b1!4m6!3m5!1s0x87530daca4ff022d:0x7d664e4d9bc6882f!8m2!3d41.294761!4d-111.947452!16s%2Fg%2F11v0yvq7rb?entry=ttu">Give a Review</a>
+            <HorsesWorldMap />
+            <a id="googleMapsLink" href="https://www.google.com/maps/place/Choice+Colt+Starting/@41.294761,-111.9500269,17z/data=!3m1!4b1!4m6!3m5!1s0x87530daca4ff022d:0x7d664e4d9bc6882f!8m2!3d41.294761!4d-111.947452!16s%2Fg%2F11v0yvq7rb?entry=ttu">Give a Review</a>
             <img id="stars" src={starsPic} alt="stars" />
             {horseReviews.map(({ name, image, review }) => {
                 return (
@@ -45,7 +46,6 @@ function HorsesReviewsPage({ horsesReviewsClicked }){
                     />
                 )
             })}
-            <HorsesWorldMap />
         </div>
     );
 }
