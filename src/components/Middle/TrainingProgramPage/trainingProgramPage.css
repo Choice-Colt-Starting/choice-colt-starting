@@ -5,81 +5,45 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:1100px;
+    height:2400px;
     width:100vw;
     background-color:lightgrey;
 }
-#programContainer{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:90vw;
-}
-#daysParentDiv{
-    display:flex;
-    height:1000px;
-    width:30%;
-    flex-direction:column;
-}
-.dayDivs{
-    height:10%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-top-style:solid;
-    border-bottom-style:solid;
-    border-right-style:hidden;
-    border-left-style:solid;
-    border-width:3px;
-    border-color:black;
+#whiteContainer{
+    height:2300px;
+    width:88vw;
     background-color:white;
 }
-.dayText{
-    text-align:center;
-}
-#exercisesParentDiv{
+.programRows{
     display:flex;
-    height:1000px;
-    width:30%;
+    justify-content:space-evenly;
+    width:88vw;
+}
+.leftRowDivs{
+    display:flex;
     flex-direction:column;
-}
-.exercisesDivs{
-    height:10%;
-    display:flex;
     align-items:center;
     justify-content:center;
-    border-top-style:solid;
-    border-bottom-style:solid;
-    border-left-style:hidden;
-    border-right-style:hidden;
-    border-width:3px;
-    border-color:black;
-    text-align:center;
-    background-color:white;
 }
-#videoParentDiv{
+.leftRowText{
+    text-align:center;
+}
+.rightRowDivs{
     display:flex;
-    height:1000px;
-    width:30%;
     flex-direction:column;
-}
-.videosDivs{
-    height:10%;
-    display:flex;
     align-items:center;
-    justify-content:center;
     text-align:center;
-    border-top-style:solid;
-    border-bottom-style:solid;
-    border-left-style:hidden;
-    border-right-style:solid;
-    border-width:3px;
-    border-color:black;
-    background-color:white;
+    width:60vw;
 }
-.videosText{
+.rightContent{
     text-decoration:none;
+    font-weight:600;
     color:black;
-    font-weight:700;
 }
-
+.videoPics{
+    height:50vw;
+    width:50vw;
+    max-height:200px;
+    max-width:200px;
+    border-radius:30px;
+}
