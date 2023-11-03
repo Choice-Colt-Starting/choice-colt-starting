@@ -18,7 +18,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Round Penning</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={roundpenningPic} alt="YouTube Channel Link" />
                             </figure>
@@ -31,7 +31,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Yield Hind Quarters and Backing Up</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={yeildHind} alt="YouTube Channel Link" />
                             </figure>
@@ -44,7 +44,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Lunging and Pick Up Feet</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={lunging} alt="YouTube Channel Link" />
                             </figure>
@@ -57,7 +57,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Jeffery's Method and Snaffle Bit Flexion</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={jefferysMethod} alt="YouTube Channel Link" />
                             </figure>
@@ -70,7 +70,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Lunging With Saddle</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={introSaddle} alt="YouTube Channel Link" />
                             </figure>
@@ -83,7 +83,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">First Ride and Tie Up</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={reinStops} alt="YouTube Channel Link" />
                             </figure>
@@ -96,7 +96,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">One Rein Stops and Cruising Lesson</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={reinStops} alt="YouTube Channel Link" />
                             </figure>
@@ -109,7 +109,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Follow The Fence and Diagonals</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={followFence} alt="YouTube Channel Link" />
                             </figure>
@@ -122,7 +122,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Trail Rides</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a className="rightContent" href="https://www.youtube.com">View Example:
+                        <a href="https://www.youtube.com"> 
                             <figure>
                                 <img className="videoPics" src={trailRides} alt="YouTube Channel Link" />
                             </figure>
