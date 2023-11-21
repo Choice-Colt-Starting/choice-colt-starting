@@ -104,7 +104,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Jeffery's Method and Snaffle Bit Flexion</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/IMpy_6NYrCg?si=10c8Lg22KJjPGggp"> 
+                        <a href="https://youtu.be/IRUjF68Os2w?si=hfuWAQfzIdDLW8CL"> 
                             <figure>
                                 <img className="videoPics" src={jefferysMethod} alt="YouTube Channel Link" />
                             </figure>
