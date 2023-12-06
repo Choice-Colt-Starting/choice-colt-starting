@@ -20,7 +20,7 @@ const HorsesWorldMap=()=>{
             <div>
                 <h4 id={hiddenNum?"hiddenNum":"none"}>00</h4>
 
-                <h4 className={!utahHovered?"none":"stateNum"}>40</h4>
+                <h4 className={!utahHovered?"none":"stateNum"}>41</h4>
 
                 <h4 className={!wyomingHovered?"none":"stateNum"}>7</h4>
                 <h4 className={!idahoHovered?"none":"stateNum"}>1</h4>
