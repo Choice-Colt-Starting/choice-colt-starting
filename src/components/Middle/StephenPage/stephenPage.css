@@ -46,7 +46,7 @@
 }
 @media(max-width:1100px){
     #bioDiv{
-        height:1500px;
+        height:2000px;
     }
     #div1{
         flex-direction:column;
