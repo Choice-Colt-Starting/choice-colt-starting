@@ -6,6 +6,7 @@ import me4 from "./images/me4.jpeg"
 function StephenPage({ stephenClicked }) {
     return(
         <div id={ stephenClicked ? "bioDiv" : "none"}>
+            <iframe id="introDiv" src="https://www.youtube.com/embed/8fUNCBQOldI?si=Gy4zSlyVSBUikd8S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div id="div1">
                 <img className="mePics" src={me2} alt="stephen" />
                 <p className="paragraphs">
