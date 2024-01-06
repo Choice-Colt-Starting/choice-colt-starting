@@ -7,6 +7,7 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: true,
                 stephenClicked: false,
+                trainingClicked: false,
                 daysClicked: false,
                 horsesReviewsClicked: false
             };
@@ -15,14 +16,21 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: true,
+                trainingClicked: false,
                 daysClicked: false,
                 horsesReviewsClicked: false
             };
+        case 'setTrainingClicked':
+            return {
+                ...state,
+                trainingClicked: true
+            };  
         case 'setDaysClicked':
             return {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: false,
+                trainingClicked: false,
                 daysClicked: true,
                 horsesReviewsClicked: false
             };
@@ -31,6 +39,7 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: false,
+                trainingClicked: false,
                 daysClicked: false,
                 horsesReviewsClicked: true
             };
@@ -44,6 +53,7 @@ const reducer = (state, action) => {
 const initialState = {
     landingPageClicked: true,
     stephenClicked: false,
+    trainingClicked: false,
     daysClicked: false,
     horsesReviewsClicked: false
 }
@@ -55,6 +65,7 @@ function usePagesClicked() {
         pages: state,
         setLandingPage: () => dispatch({ type: "setLandingPageClicked" }),
         setStephenPage: () => dispatch({ type: "setStephenClicked" }),
+        setTrainingClicked: ()=> dispatch({ type: "setTrainingClicked" }),
         setDaysPage: () => dispatch({ type: "setDaysClicked" }),
         setHorsesReviewsPage: () => dispatch({ type: "setHorsesReviewsClicked" })
     }

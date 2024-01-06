@@ -6,6 +6,7 @@ function Header({
     pages,
     setLandingPage,
     setStephenPage,
+    setTrainingClicked,
     setDaysPage,
     setHorsesReviewsPage }) {
 
@@ -28,6 +29,7 @@ function Header({
                     pages={pages}
                     setLandingPage={setLandingPage}
                     setStephenPage={setStephenPage}
+                    setTrainingClicked={setTrainingClicked}
                     setDaysPage={setDaysPage}
                     setHorsesReviewsPage={setHorsesReviewsPage} />
             </div>
