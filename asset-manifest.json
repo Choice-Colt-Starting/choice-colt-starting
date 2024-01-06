@@ -1,21 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.9edd69a6.css",
-    "main.js": "./static/js/main.d845c828.js",
+    "main.js": "./static/js/main.17997654.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/trailRiding.png": "./static/media/trailRiding.9406b26cd9265f0f1618.png",
-    "static/media/followFence.png": "./static/media/followFence.96a3d1f69bed0efcc5b5.png",
-    "static/media/yeildHindQuarters.png": "./static/media/yeildHindQuarters.910abbefe267b88f553d.png",
-    "static/media/roundpenningPic.png": "./static/media/roundpenningPic.fc467500d9ea0f353a1b.png",
-    "static/media/reinStops.png": "./static/media/reinStops.8ac25fcc03d478ef66a8.png",
-    "static/media/lunging.png": "./static/media/lunging.39b3e6a063bef2f47cc6.png",
-    "static/media/introducingSaddle.jpeg": "./static/media/introducingSaddle.519f21e5fb085b79fdb6.jpeg",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/me3.jpeg": "./static/media/me3.37b42ae67d1b73357e33.jpeg",
     "static/media/orluff.jpeg": "./static/media/orluff.14507baec278d1de9cb5.jpeg",
     "static/media/discoverBackPic.jpg": "./static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
     "static/media/usMap3.png": "./static/media/usMap3.226f2a5758dc45d46afb.png",
-    "static/media/jefferysMethod.jpeg": "./static/media/jefferysMethod.5f44a55542f7745ade20.jpeg",
     "static/media/me4.jpeg": "./static/media/me4.7b95720c0f2bc218e17a.jpeg",
     "static/media/instagramIcon.jpg": "./static/media/instagramIcon.cc5d72fc2ece20a90aed.jpg",
     "static/media/roo.jpeg": "./static/media/roo.75440cc5e76659e0a2e5.jpeg",
@@ -30,11 +23,11 @@
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
     "main.9edd69a6.css.map": "./static/css/main.9edd69a6.css.map",
-    "main.d845c828.js.map": "./static/js/main.d845c828.js.map",
+    "main.17997654.js.map": "./static/js/main.17997654.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9edd69a6.css",
-    "static/js/main.d845c828.js"
+    "static/js/main.17997654.js"
   ]
 }
