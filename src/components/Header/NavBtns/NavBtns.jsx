@@ -26,7 +26,7 @@ function NavBtns({
                 onClick={() => setTrainingProgramPage()}
             />
             <NavBtn
-                title={'Horses and Reviews'}
+                title={'Reviews'}
                 isClicked={pages.horsesReviewsClicked}
                 onClick={() => setHorsesReviewsPage()}
             />
