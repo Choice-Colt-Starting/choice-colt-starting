@@ -1,11 +1,4 @@
 import"./trainingProgramPage.css";
-import roundpenningPic from"./images/roundpenningPic.png";
-import yeildHind from"./images/yeildHindQuarters.png";
-import lunging from"./images/lunging.png";
-import jefferysMethod from"./images/jefferysMethod.jpeg";
-import introSaddle from"./images/introducingSaddle.jpeg";
-import reinStops from"./images/reinStops.png";
-import followFence from"./images/followFence.png";
 import trailRides from"./images/trailRiding.png";
 
 // Hey Tanner! The code that is commented out is stuff you helped create. I was not sure how to apply it to the stuff I had changed, so I just commented it out and we can put it back together when we code together next.
@@ -65,11 +58,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Round Penning</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/JaSi5eCBh_w?si=PnYo4mfRE8Bntb6H"> 
-                            <figure>
-                                <img className="videoPics" src={roundpenningPic} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/JaSi5eCBh_w?si=u9sutTsOqmwmHP76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -78,11 +67,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Yield Hind Quarters and Backing Up</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/IVgfRRu1PTw?si=yGEv-KogkA-1jT2f"> 
-                            <figure>
-                                <img className="videoPics" src={yeildHind} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/IVgfRRu1PTw?si=rd66GAjO5QBmL4J5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -91,11 +76,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Lunging and Pick Up Feet</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/O2tD2ZTPQjI?si=PZQGbeymoByuaFK3"> 
-                            <figure>
-                                <img className="videoPics" src={lunging} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/O2tD2ZTPQjI?si=hxAEhuQDp-0t9c3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -104,11 +85,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Jeffery's Method and Snaffle Bit Flexion</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/IRUjF68Os2w?si=hfuWAQfzIdDLW8CL"> 
-                            <figure>
-                                <img className="videoPics" src={jefferysMethod} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/IRUjF68Os2w?si=Zix0dUBM1Dn8SmNL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -117,11 +94,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Lunging With Saddle</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/8G7s92tWmic?si=vzQz2Tsh2hwAx9L0"> 
-                            <figure>
-                                <img className="videoPics" src={introSaddle} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/8G7s92tWmic?si=LYYYYoDWoLPgF8ib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -130,11 +103,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">First Ride and Tie Up</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/Kuv3rjm_yjk?si=_wDPIlzEHUHOMHt2"> 
-                            <figure>
-                                <img className="videoPics" src={reinStops} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/Kuv3rjm_yjk?si=_g7jY1DOTPR0NTda" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -143,11 +112,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">One Rein Stops and Cruising Lesson</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/Jd9EFxnTSbA?si=er_8ziZcqlmJt-tb"> 
-                            <figure>
-                                <img className="videoPics" src={reinStops} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/Jd9EFxnTSbA?si=pb3IhZpGNaAJxB5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
@@ -156,11 +121,7 @@ const TrainingProgramPage=props=>{
                         <h4 className="leftRowText">Follow The Fence and Diagonals</h4>
                     </div>
                     <div className="rightRowDivs">
-                        <a href="https://youtu.be/01i6keZZ2VA?si=YqMQ8d-pOYfXr9Wk"> 
-                            <figure>
-                                <img className="videoPics" src={followFence} alt="YouTube Channel Link" />
-                            </figure>
-                        </a>
+                        <iframe className="videoPics" src="https://www.youtube.com/embed/01i6keZZ2VA?si=9Uv59l3vmdgxEHv7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className="programRows">
