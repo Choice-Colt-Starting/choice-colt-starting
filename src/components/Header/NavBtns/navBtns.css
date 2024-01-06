@@ -71,9 +71,15 @@
     border-style:solid;
     border-width:3px;
 }
-#explanationsCell{
+#articlesCell{
     display:flex;
     justify-content:center;
     background-color:rgb(89,35,9);
     width:140px;
+}
+#articlesCell:hover{
+    cursor:pointer;
+    border-color:black;
+    border-style:solid;
+    border-width:3px;
 }

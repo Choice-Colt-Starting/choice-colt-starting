@@ -7,6 +7,7 @@ function NavBtns({
     setStephenPage,
     setTrainingClicked,
     setDaysPage,
+    setArticlesPage,
     setHorsesReviewsPage }) {
 
     return (
@@ -45,7 +46,7 @@ function NavBtns({
                 <div className="menuRowDivs">
                     <div className="menuCell"><h4>Home</h4></div>
                     <div className="menuCell"><h4>Meet Stephen</h4></div>
-                    <div id="explanationsCell"className="menuCell">
+                    <div id="articlesCell"className="menuCell" onClick={()=>{setArticlesPage();setTrainingClicked();}}>
                         <h4>Articles</h4>
                     </div>
                     <div className="menuCell"><h4>Reviews</h4></div>

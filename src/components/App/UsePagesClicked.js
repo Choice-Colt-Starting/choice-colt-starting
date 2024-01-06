@@ -9,6 +9,7 @@ const reducer = (state, action) => {
                 stephenClicked: false,
                 trainingClicked: false,
                 daysClicked: false,
+                articlesClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setStephenClicked':
@@ -18,6 +19,7 @@ const reducer = (state, action) => {
                 stephenClicked: true,
                 trainingClicked: false,
                 daysClicked: false,
+                articlesClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setTrainingClicked':
@@ -32,7 +34,18 @@ const reducer = (state, action) => {
                 stephenClicked: false,
                 trainingClicked: false,
                 daysClicked: true,
+                articlesClicked: false,
                 horsesReviewsClicked: false
+            };
+        case 'setArticlesClicked':
+            return {
+                ...state,
+                landingPageClicked: false,
+                stephenClicked:false,
+                trainingClicked:false,
+                daysClicked:false,
+                articlesClicked:true,
+                horsesReviewsClicked:false,
             };
         case 'setHorsesReviewsClicked':
             return {
@@ -41,6 +54,7 @@ const reducer = (state, action) => {
                 stephenClicked: false,
                 trainingClicked: false,
                 daysClicked: false,
+                articlesClicked: false,
                 horsesReviewsClicked: true
             };
         default:
@@ -55,6 +69,7 @@ const initialState = {
     stephenClicked: false,
     trainingClicked: false,
     daysClicked: false,
+    articlesClicked: false,
     horsesReviewsClicked: false
 }
 
@@ -67,6 +82,7 @@ function usePagesClicked() {
         setStephenPage: () => dispatch({ type: "setStephenClicked" }),
         setTrainingClicked: ()=> dispatch({ type: "setTrainingClicked" }),
         setDaysPage: () => dispatch({ type: "setDaysClicked" }),
+        setArticlesPage: ()=> dispatch({type: "setArticlesClicked" }),
         setHorsesReviewsPage: () => dispatch({ type: "setHorsesReviewsClicked" })
     }
 }
