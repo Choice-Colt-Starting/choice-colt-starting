@@ -1,7 +1,7 @@
 import "./middle.css";
 import { LandingPage } from "./LandingPage/LandingPage.jsx";
 import { StephenPage } from "./StephenPage/StephenPage.jsx";
-import { TrainingProgramPage } from "./TrainingProgramPage/TrainingProgramPage.jsx";
+import { DaysPage } from "./DaysPage/DaysPage.jsx";
 import { HorsesReviewsPage } from "./HorsesReviewsPage/HorsesReviewsPage.jsx";
 
 const Middle = ({ pages }) => {
@@ -10,7 +10,7 @@ const Middle = ({ pages }) => {
         <>
             <LandingPage landingPageClicked={pages.landingPageClicked}  />
             <StephenPage stephenClicked={pages.stephenClicked} />
-            <TrainingProgramPage trainingProgramClicked={pages.trainingProgramClicked} />
+            <DaysPage daysClicked={pages.daysClicked} />
             <HorsesReviewsPage horsesReviewsClicked={pages.horsesReviewsClicked} />
         </>
     );

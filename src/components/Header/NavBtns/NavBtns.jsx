@@ -5,7 +5,7 @@ function NavBtns({
     pages,
     setLandingPage,
     setStephenPage,
-    setTrainingProgramPage,
+    setDaysPage,
     setHorsesReviewsPage }) {
 
     return (
@@ -22,8 +22,8 @@ function NavBtns({
             />
             <NavBtn
                 title={'Training Program'}
-                isClicked={pages.trainingProgramClicked}
-                onClick={() => setTrainingProgramPage()}
+                isClicked={pages.daysClicked}
+                onClick={() => setDaysPage()}
             />
             <NavBtn
                 title={'Reviews'}

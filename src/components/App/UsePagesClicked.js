@@ -7,7 +7,7 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: true,
                 stephenClicked: false,
-                trainingProgramClicked: false,
+                daysClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setStephenClicked':
@@ -15,15 +15,15 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: true,
-                trainingProgramClicked: false,
+                daysClicked: false,
                 horsesReviewsClicked: false
             };
-        case 'setTrainingProgramClicked':
+        case 'setDaysClicked':
             return {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: false,
-                trainingProgramClicked: true,
+                daysClicked: true,
                 horsesReviewsClicked: false
             };
         case 'setHorsesReviewsClicked':
@@ -31,7 +31,7 @@ const reducer = (state, action) => {
                 ...state,
                 landingPageClicked: false,
                 stephenClicked: false,
-                trainingProgramClicked: false,
+                daysClicked: false,
                 horsesReviewsClicked: true
             };
         default:
@@ -44,7 +44,7 @@ const reducer = (state, action) => {
 const initialState = {
     landingPageClicked: true,
     stephenClicked: false,
-    trainingProgramClicked: false,
+    daysClicked: false,
     horsesReviewsClicked: false
 }
 
@@ -55,7 +55,7 @@ function usePagesClicked() {
         pages: state,
         setLandingPage: () => dispatch({ type: "setLandingPageClicked" }),
         setStephenPage: () => dispatch({ type: "setStephenClicked" }),
-        setTrainingProgramPage: () => dispatch({ type: "setTrainingProgramClicked" }),
+        setDaysPage: () => dispatch({ type: "setDaysClicked" }),
         setHorsesReviewsPage: () => dispatch({ type: "setHorsesReviewsClicked" })
     }
 }

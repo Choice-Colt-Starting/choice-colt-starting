@@ -9,7 +9,7 @@ function App() {
     pages,
     setLandingPage,
     setStephenPage,
-    setTrainingProgramPage,
+    setDaysPage,
     setHorsesReviewsPage
   } = usePagesClicked();
 
@@ -19,7 +19,7 @@ function App() {
           pages={pages}
           setLandingPage={setLandingPage}
           setStephenPage={setStephenPage}
-          setTrainingProgramPage={setTrainingProgramPage}
+          setDaysPage={setDaysPage}
           setHorsesReviewsPage={setHorsesReviewsPage} />
         <Middle pages={pages} />
         <Footer />

@@ -1,4 +1,4 @@
-import"./trainingProgramPage.css";
+import"./daysPage.css";
 import trailRides from"./images/trailRiding.png";
 
 // Hey Tanner! The code that is commented out is stuff you helped create. I was not sure how to apply it to the stuff I had changed, so I just commented it out and we can put it back together when we code together next.
@@ -48,9 +48,9 @@ import trailRides from"./images/trailRiding.png";
 //                             </div>
 //                         );
 //                     })}
-const TrainingProgramPage=props=>{
+const DaysPage=props=>{
     return(
-        <div id={props.trainingProgramClicked===false?"none":"trainingParentDiv"}>
+        <div id={props.daysClicked===false?"none":"trainingParentDiv"}>
             <div id="whiteContainer">
                 <div className="programRows">
                     <div className="leftRowDivs">
@@ -142,4 +142,4 @@ const TrainingProgramPage=props=>{
     );
 };
 
-export { TrainingProgramPage };
+export { DaysPage };
