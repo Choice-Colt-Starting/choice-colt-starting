@@ -25,7 +25,7 @@ function NavBtns({
                 />
                 <NavBtn
                     title={'Training Program'}
-                    isClicked={pages.daysClicked}
+                    isClicked={pages.daysClicked||pages.articlesClicked}
                     onClick={()=>setTrainingClicked()}
                 />
                 <NavBtn
@@ -38,7 +38,7 @@ function NavBtns({
                 <div className="menuRowDivs">
                     <div className="menuCell"><h4>Home</h4></div>
                     <div className="menuCell"><h4>Meet Stephen</h4></div>
-                    <div id="daysCell"className="menuCell" onClick={()=>{setDaysPage();setTrainingClicked();}}>
+                    <div id="daysCell"className="menuCell" onClick={()=>setDaysPage()}>
                         <h4>90 Days</h4>
                     </div>
                     <div className="menuCell"><h4>Reviews</h4></div>
@@ -46,7 +46,7 @@ function NavBtns({
                 <div className="menuRowDivs">
                     <div className="menuCell"><h4>Home</h4></div>
                     <div className="menuCell"><h4>Meet Stephen</h4></div>
-                    <div id="articlesCell"className="menuCell" onClick={()=>{setArticlesPage();setTrainingClicked();}}>
+                    <div id="articlesCell"className="menuCell" onClick={()=>setArticlesPage()}>
                         <h4>Articles</h4>
                     </div>
                     <div className="menuCell"><h4>Reviews</h4></div>
