@@ -1,3 +1,15 @@
 #articlesPageParentDiv{
-    background-color:orange;
+    background-color:grey;
+}
+#wormerDiv{
+    background-color:lightblue;
+}
+#abusedDiv{
+    background-color:lightcoral;
+}
+#objectVsLocationDiv{
+    background-color:lightseagreen;
+}
+#trainersDiv{
+    background-color:lightyellow;
 }
