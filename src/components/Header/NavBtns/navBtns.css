@@ -45,6 +45,11 @@
     height:80px;
     width:100vw;
 }
+#blankSpaceDiv{
+    height:80px;
+    width:100vw;
+    background-color:white;
+}
 .menuRowDivs{
     display:flex;
     justify-content:space-around;

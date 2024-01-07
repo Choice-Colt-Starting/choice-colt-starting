@@ -54,6 +54,7 @@ function NavBtns({
                 <div>
                 </div>
             </div>
+            <div id={pages.trainingClicked===true?"none":"blankSpaceDiv"} />
         </div>
     );
 };
