@@ -1,6 +1,9 @@
 #articlesPageParentDiv{
     background-color:grey;
 }
+#articleIdeasDiv{
+    background-color: lightgoldenrodyellow;
+}
 #wormerDiv{
     background-color:lightblue;
 }
@@ -12,4 +15,7 @@
 }
 #trainersDiv{
     background-color:lightyellow;
+}
+#startEndLightDiv{
+    background-color:azure;
 }

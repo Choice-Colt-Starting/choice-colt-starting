@@ -3,6 +3,12 @@ import "./articlesPage.css";
 function ArticlesPage(props){
     return(
         <div id={props.articlesClicked===false?"none":"articlesPageParentDiv"}>
+            <div id="articleIdeasDiv">
+                <h4>Ask Horse Training Questions To Stephen Here!</h4>
+                <h4>Was there something you saw Stephen do that you want more teaching and explanation on? Would you like to hear Stephen's knowledge on a horse training topic? Do you have any tips or feedback to add for the articles on this page?</h4>
+                <h4>Email us at choicecoltstarting@gmail.com, and we'll make an exhaustive article for you about your questions, tips, and feedback!</h4>
+                <h4>Ask for articles from Stephen about your horses personal experiences and  time here.</h4>  
+            </div>
             <div id="wormerDiv">
 `               <h4>5 Steps For Giving De-Wormer To Horses</h4>
                 <p>I have found that most people's horses resist taking de-wormer because they usually force the horse to take it. The steps below work for any horse (even resistant horses). Repeat each step (not moving onto the next one) until the horse does it relaxed and thinking, instead of reacting:</p>
@@ -39,6 +45,14 @@ function ArticlesPage(props){
                 <p>Any horse can be trained, and any exercise can be taught. The trainer just needs to have mastered the exercise if they want to be able to teach it to every horse.</p>
                 <p>It is important for the first exercise that you teach a colt, to be done to the very best of the horse's ability. For example, if you teach it to round pen as your first exercise, you should be able to get that horse to do everything that a horse you've owned for two years can do. If you grade your horse's performance with the standard A, B, C, D, F grading system, you want your first exercise to be done to an A efficincy. Most colt starters don't do this, because they know that if the horse just understands the concept (lets say its a B) then they will be safe to move to the next exercise. This is true for most exercises, but it is a mistake to make with the first exercise taught. The first exercise is a time to set all clear boundaries with a horse, and to see if it can mentally and physically work hard. If the horse can't do an A amount of work 
                 mentally or physically, then it would be important to inform the owner sooner rather than later.</p>
+            </div>
+            <div id="startEndLightDiv">
+                <h4>Starting and Ending Light In Everything You Do</h4>
+                <p>On the first day and last day of every week, I have a training session with my horses that has a very easy expectation and low stress level. The days in-between (Tuesday-Thursday) are days that I set expectations higher. Here's an example: I never pick up horses feet for the first time on a Monday or a Friday, because if the horse has a stressful time, it will start to resent it's decision to be around me. I will instead wait for a day between Tuesday-Thursday to do it for the first time.</p>
+                <p> Another way I start and end light is by always spending 10-15 minutes at the beginning and end of every training session having my horses walk, and desensitizing my horses. Another way I start and end light, is I always ask with the lightest possible pressure when teaching horses an exercise and increase the pressure until my horses are motivated to look for the release of pressure. Once my horses are motivated to look for the release of pressure, I lower my pressure back to as light as possible as long as they keep staying motivated to find the release.</p>
+
+                <p>Horses ruminate on things. We all know the famous saying, "Horses learn from the release of pressure.". Whatever the last thing they were thinking about when you put them away, is going to be thought about constantly until you catch them again. You can use this to your advantage if you control the last thing your horses are thinking about whenever you put them back in their stall. This is very impactful on their training. If you think that the only time horses are learning is while thier in the arena, under the saddle, or tied up, you're wrong. Horses that are put away, thinking about being relaxed and respectful will want to be caught whenever you catch them next. Horses that are put away thinking that they don't want to be submissive, will be more difficult to catch the next time. Starting and ending light is the key to having your horse enjoy the learning process.</p>
+                <p>Having a horse that is relaxed and enjoying it's job and learning process brings better results than what you would get if you had intense training sessions on Mondays and Fridays. If you are working horses every day, during the last 30 minutes activly be with your horse (sitting next to it, brusing it, letting it eat, etc.) anything that keeps their attention relatively on you, but is enjoyable for them. Then when you put them away for the night, they will have more stress free experiences to ruminate on, rather than the hard work. This will allow the horse to enjoy being caught continually. If you don't do this you will find that a daily work schedule starts to make them resent being with you. If you only work and train your horses once a week, you will also need to do the 30 minutes of relaxing but attentive time (mentioned above) at the end of every session to keep horses wanting to be with you.</p>
             </div>
         </div>
     );
