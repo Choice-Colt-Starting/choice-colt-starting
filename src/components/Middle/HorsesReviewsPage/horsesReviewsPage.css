@@ -7,7 +7,7 @@
     align-items:center;
     flex-direction:column;
     /* height:2200px; */
-    height:1300px;
+    height:2500px;
 }
 #stars{
     height:150px;
@@ -37,13 +37,14 @@
     border-bottom-style:solid;
     border-bottom-width:2px;
     border-bottom-color:black;
+    background-color: lightgoldenrodyellow;
 }
 .ownerDiv{
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    height:230px;
+    height:450px;
     width:100px;
     background-color:lightgoldenrodyellow;
 }
