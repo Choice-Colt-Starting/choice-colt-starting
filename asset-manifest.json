@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.0b68a710.css",
-    "main.js": "./static/js/main.c7722afe.js",
+    "main.css": "./static/css/main.d5cb0487.css",
+    "main.js": "./static/js/main.02a830ad.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/trailRiding.png": "./static/media/trailRiding.9406b26cd9265f0f1618.png",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
     "static/media/me3.jpeg": "./static/media/me3.37b42ae67d1b73357e33.jpeg",
     "static/media/orluff.jpeg": "./static/media/orluff.14507baec278d1de9cb5.jpeg",
     "static/media/discoverBackPic.jpg": "./static/media/discoverBackPic.d74b56fd9d575b2fe022.jpg",
+    "static/media/kylee.jpg": "./static/media/kylee.251a3306762ac46742be.jpg",
     "static/media/usMap3.png": "./static/media/usMap3.226f2a5758dc45d46afb.png",
     "static/media/me4.jpeg": "./static/media/me4.7b95720c0f2bc218e17a.jpeg",
     "static/media/instagramIcon.jpg": "./static/media/instagramIcon.cc5d72fc2ece20a90aed.jpg",
@@ -22,12 +23,12 @@
     "static/media/jake.jpeg": "./static/media/jake.1ee500a72a34c48aac6e.jpeg",
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
-    "main.0b68a710.css.map": "./static/css/main.0b68a710.css.map",
-    "main.c7722afe.js.map": "./static/js/main.c7722afe.js.map",
+    "main.d5cb0487.css.map": "./static/css/main.d5cb0487.css.map",
+    "main.02a830ad.js.map": "./static/js/main.02a830ad.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b68a710.css",
-    "static/js/main.c7722afe.js"
+    "static/css/main.d5cb0487.css",
+    "static/js/main.02a830ad.js"
   ]
 }
