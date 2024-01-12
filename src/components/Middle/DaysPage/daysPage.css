@@ -5,9 +5,17 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:3000px;
+    flex-direction:column;
+    height:3550px;
     width:100vw;
     background-color:lightgrey;
+}
+#allExercisesVid{
+    height:60vw;
+    width:80vw;
+    min-width:200px;
+    max-height:500px;
+    margin-bottom:80px;
 }
 #whiteContainer{
     height:auto;

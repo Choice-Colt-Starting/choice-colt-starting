@@ -51,6 +51,7 @@ import trailRides from"./images/trailRiding.png";
 const DaysPage=props=>{
     return(
         <div id={props.daysClicked===false?"none":"trainingParentDiv"}>
+            <iframe id="allExercisesVid" src="https://www.youtube.com/embed/cdCDq2djupQ?si=RIzrxynhDtxYLeyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <div id="whiteContainer">
                 <div className="programRows">
                     <div className="leftRowDivs">
