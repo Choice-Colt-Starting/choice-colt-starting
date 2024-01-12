@@ -26,7 +26,7 @@ function NavBtns({
                 />
                 <NavBtn
                     title={'Training Program'}
-                    isClicked={pages.daysClicked||pages.articlesClicked}
+                    isClicked={pages.daysClicked||pages.articlesClicked||pages.horsesClicked}
                     onClick={()=>setTrainingClicked()}
                 />
                 <NavBtn
