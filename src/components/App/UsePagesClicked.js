@@ -10,6 +10,7 @@ const reducer = (state, action) => {
                 trainingClicked: false,
                 daysClicked: false,
                 articlesClicked: false,
+                horsesClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setStephenClicked':
@@ -20,6 +21,7 @@ const reducer = (state, action) => {
                 trainingClicked: false,
                 daysClicked: false,
                 articlesClicked: false,
+                horsesClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setTrainingClicked':
@@ -35,6 +37,7 @@ const reducer = (state, action) => {
                 trainingClicked: false,
                 daysClicked: true,
                 articlesClicked: false,
+                horsesClicked: false,
                 horsesReviewsClicked: false
             };
         case 'setArticlesClicked':
@@ -45,7 +48,19 @@ const reducer = (state, action) => {
                 trainingClicked:false,
                 daysClicked:false,
                 articlesClicked:true,
-                horsesReviewsClicked:false,
+                horsesClicked: false,
+                horsesReviewsClicked:false
+            };
+        case 'setHorsesClicked':
+            return{
+                ...state,
+                landingPageClicked: false,
+                stephenClicked: false,
+                trainingClicked: false,
+                daysClicked: false,
+                articlesClicked: false,
+                horsesClicked: true,
+                horsesReviewsClicked: false
             };
         case 'setHorsesReviewsClicked':
             return {
@@ -55,6 +70,7 @@ const reducer = (state, action) => {
                 trainingClicked: false,
                 daysClicked: false,
                 articlesClicked: false,
+                horsesClicked: false,
                 horsesReviewsClicked: true
             };
         default:
@@ -70,6 +86,7 @@ const initialState = {
     trainingClicked: false,
     daysClicked: false,
     articlesClicked: false,
+    horsesClicked: false,
     horsesReviewsClicked: false
 }
 
@@ -83,6 +100,7 @@ function usePagesClicked() {
         setTrainingClicked: ()=> dispatch({ type: "setTrainingClicked" }),
         setDaysPage: () => dispatch({ type: "setDaysClicked" }),
         setArticlesPage: ()=> dispatch({type: "setArticlesClicked" }),
+        setHorsesPage: ()=> dispatch({type: "setHorsesClicked" }),
         setHorsesReviewsPage: () => dispatch({ type: "setHorsesReviewsClicked" })
     }
 }

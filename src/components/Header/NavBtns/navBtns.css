@@ -64,25 +64,13 @@
     align-items:center;
     color:white;
 }
-#daysCell{
+#menuItems{
     display:flex;
     justify-content:center;
     background-color:rgb(89,35,9);
     width:140px;
 }
-#daysCell:hover{
-    cursor:pointer;
-    border-color:black;
-    border-style:solid;
-    border-width:3px;
-}
-#articlesCell{
-    display:flex;
-    justify-content:center;
-    background-color:rgb(89,35,9);
-    width:140px;
-}
-#articlesCell:hover{
+#menuItems:hover{
     cursor:pointer;
     border-color:black;
     border-style:solid;

@@ -8,6 +8,7 @@ function NavBtns({
     setTrainingClicked,
     setDaysPage,
     setArticlesPage,
+    setHorsesPage,
     setHorsesReviewsPage }) {
 
     return (
@@ -38,7 +39,7 @@ function NavBtns({
                 <div className="menuRowDivs">
                     <div className="menuCell"><h4>Home</h4></div>
                     <div className="menuCell"><h4>Meet Stephen</h4></div>
-                    <div id="daysCell"className="menuCell" onClick={()=>setDaysPage()}>
+                    <div id="menuItems"className="menuCell" onClick={()=>setDaysPage()}>
                         <h4>90 Days</h4>
                     </div>
                     <div className="menuCell"><h4>Reviews</h4></div>
@@ -46,8 +47,16 @@ function NavBtns({
                 <div className="menuRowDivs">
                     <div className="menuCell"><h4>Home</h4></div>
                     <div className="menuCell"><h4>Meet Stephen</h4></div>
-                    <div id="articlesCell"className="menuCell" onClick={()=>setArticlesPage()}>
+                    <div id="menuItems"className="menuCell" onClick={()=>setArticlesPage()}>
                         <h4>Articles</h4>
+                    </div>
+                    <div className="menuCell"><h4>Reviews</h4></div>
+                </div>
+                <div className="menuRowDivs">
+                    <div className="menuCell"><h4>Home</h4></div>
+                    <div className="menuCell"><h4>Meet Stephen</h4></div>
+                    <div id="menuItems"className="menuCell" onClick={()=>setHorsesPage()}>
+                        <h4>Horses</h4>
                     </div>
                     <div className="menuCell"><h4>Reviews</h4></div>
                 </div>

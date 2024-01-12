@@ -9,6 +9,7 @@ function Header({
     setTrainingClicked,
     setDaysPage,
     setArticlesPage,
+    setHorsesPage,
     setHorsesReviewsPage }) {
 
     return(
@@ -33,6 +34,7 @@ function Header({
                     setTrainingClicked={setTrainingClicked}
                     setDaysPage={setDaysPage}
                     setArticlesPage={setArticlesPage}
+                    setHorsesPage={setHorsesPage}
                     setHorsesReviewsPage={setHorsesReviewsPage} />
             </div>
         </div>

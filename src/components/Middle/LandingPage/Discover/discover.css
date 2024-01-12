@@ -24,8 +24,6 @@
     background-color:peru;
     color:black;
     text-decoration:none;
-    position:relative;
-    top:25px;
 }
 #disDiv1{
     background-color:lightgray;
@@ -36,8 +34,6 @@
     background-color:lightgoldenrodyellow;
     color:black;
     text-decoration:none;
-    position:relative;
-    top:25px;
 }
 #disDiv3{
     background-color:lightsalmon;
