@@ -24,8 +24,12 @@ function App() {
           setTrainingClicked={setTrainingClicked}
           setDaysPage={setDaysPage}
           setArticlesPage={setArticlesPage}
-          setHorsesReviewsPage={setHorsesReviewsPage} />
-        <Middle pages={pages} />
+          setHorsesReviewsPage={setHorsesReviewsPage} 
+        />
+        <Middle 
+          pages={pages} 
+          setArticlesPage={setArticlesPage} 
+        />
         <Footer />
     </>
   );
