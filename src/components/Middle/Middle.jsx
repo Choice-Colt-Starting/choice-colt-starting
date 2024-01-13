@@ -12,7 +12,7 @@ const Middle = ({
     setHorsesPage }) => {
 
     return(
-        <>
+        <div>
             <LandingPage 
                 landingPageClicked={pages.landingPageClicked} 
                 setArticlesPage={setArticlesPage}
@@ -23,7 +23,7 @@ const Middle = ({
             <ArticlesPage articlesClicked={pages.articlesClicked} />
             <HorsesPage horsesClicked={pages.horsesClicked} />
             <HorsesReviewsPage horsesReviewsClicked={pages.horsesReviewsClicked} />
-        </>
+        </div>
     );
 };
 
