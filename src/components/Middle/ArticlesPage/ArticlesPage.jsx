@@ -16,9 +16,9 @@ function ArticlesPage(props){
                 </div>
             </div>
             <div id="wormParentDiv">
-                <div id="wormVidDiv">
+                {/* <div id="wormVidDiv">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/4XlxVX82ml8?si=YTuJgT2ypTF2NHT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                </div>
+                </div> */}
                 <div id="wormerDiv">
                     <div className="sectionTitlesDiv">
                         <h4>5 Steps For Giving De-Wormer To Horses</h4>
