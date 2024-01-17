@@ -93,7 +93,7 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/tDygumJ81Ak?si=fKzuvrsIFllw35Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-                <h4 className="listText" onClick={()=>setBuckskin3Geld(!buckskin3Geld)}>3 Year Old Buckskin Gelding</h4>
+                {/* <h4 className="listText" onClick={()=>setBuckskin3Geld(!buckskin3Geld)}>3 Year Old Buckskin Gelding</h4>
             <div id={buckskin3Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/oezaISQJ-jg?si=tmTNfhK6y8jNDbGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -238,7 +238,7 @@ const HorsesPage=pages=>{
                 <iframe className="horsesVideos"  src="https://www.youtube.com/embed/N_CKg1HRkK0?si=Sx4KtkjkY0BeFwWX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/6MjOk7-nHsU?si=GtDKh2UX_JPAnc5v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div>
+            </div> */}
         </div>
     );
 };
