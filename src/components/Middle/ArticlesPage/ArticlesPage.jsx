@@ -16,10 +16,10 @@ function ArticlesPage(props){
                 </div>
             </div>
             <div id="wormParentDiv">
-                <div id="wormVidDiv">
+                <div className="articleVidsDivs">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/4XlxVX82ml8?si=YTuJgT2ypTF2NHT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
-                <div id="wormerDiv">
+                <div className="textContentDivs">
                     <div className="sectionTitlesDiv">
                         <h4>5 Steps For Giving De-Wormer To Horses</h4>
                     </div>
@@ -37,12 +37,31 @@ function ArticlesPage(props){
                 </div>
             </div>
             <div id="objectVsLocationDiv">
-                <h4>Object Desensitization vs. Location Desensitization</h4>
-                <p>Which gets a queiter and relaxed horse quicker, desensitizing to objects or locations?</p>
-                <p>Desensitizing a horse to a variety of objects is limited to the objects that are in your possesion while with the horse. Location desensitization gets horses quieter because not only does it make them relax with a new location, they also have to relax to the random and ever-changing objects that are in the location. This is why trail rides are so effective for getting horses calm in all sorts of situations. When on the trail, you get a horse desensitized to locations and objects, while the alternative only trains them to be comfortable with objects.</p>
-                <p>Horses might be comfortale with a plastic bag in their stall, but then when they see a plastic bag on the sidewalk they are apprehensive about it again. This is because horses don't assume that because one plastic bag was safe, that all plasitc bags will be safe. They will be apprehensive to a familiar object, if the location of it is new. Desensitizing horses to objects can prove to be a waste of time, if they aren't also being desensistized to locations just as much.</p>
-                <h4>Teaching Horses To Think About Scary Objects, Instead Of Repatitiously Proving That The Object Won't Hurt Them</h4>
-                <p>Many horses don't know how to think about if something should be scary or if it is safe. Most horses just assume that the object isn't safe, if they haven't had high amounts of safe exposure to that type of object. This is why it is important that horses don't experience high amounts of stress and pressure every time they are getting trained. A good trainer will only stress and pressure their horse about once every two weeks. This will re-affirm the horse's emotions to stay stable and not escalate at every new form of pressure. This also fosters an environment where horses enjoy being and are relaxed during the learning process. If a person is pushing a horse to do high levels of performance every day, then that horse isn't going to like being around that person. My horses learn to think about new experiences instead of reacting. There is a clear difference between my horse and one that was started by another trainer, because mine won't spook or over react to a scary dog, rope being thrown, car driving by, or crossing a scary bridge. This is because my horses have learned to think about things instead of just react.</p>
+            <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/E43FVOYiS-A?si=g-2MUUA-iZhcb6vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="textContentDivs">
+                    <div className="sectionTitlesDiv">
+                        <h4>Object Desensitization vs. Location Desensitization</h4>
+                    </div>
+                    <div className="sectionInfoDivParent">
+                        <div className="sectionInfoDiv">
+                            <p>Which gets a queiter and relaxed horse quicker, desensitizing to objects or locations?</p>
+                            <p>Desensitizing a horse to a variety of objects is limited to the objects that are in your possesion while with the horse. Location desensitization gets horses quieter because not only does it make them relax with a new location, they also have to relax to the random and ever-changing objects that are in the location. This is why trail rides are so effective for getting horses calm in all sorts of situations. When on the trail, you get a horse desensitized to locations and objects, while the alternative only trains them to be comfortable with objects.</p>
+                            <p>Horses might be comfortale with a plastic bag in their stall, but then when they see a plastic bag on the sidewalk they are apprehensive about it again. This is because horses don't assume that because one plastic bag was safe, that all plasitc bags will be safe. They will be apprehensive to a familiar object, if the location of it is new. Desensitizing horses to objects can prove to be a waste of time, if they aren't also being desensistized to locations just as much.</p>
+                        </div>
+                    </div>
+                    <div className="sectionInfoDivParent">
+                        <div className="sectionInfoDiv">
+                            <div className="sectionTitlesDiv">
+                                <h4>Teaching Horses To Think About Scary Objects</h4>
+                            </div>
+                            <div className="sectionInfoDiv">
+                                <p>Many horses don't know how to think about if something should be scary or if it is safe. Most horses just assume that the object isn't safe, if they haven't had high amounts of safe exposure to that type of object. This is why it is important that horses don't experience high amounts of stress and pressure every time they are getting trained. A good trainer will only stress and pressure their horse about once every two weeks. This will re-affirm the horse's emotions to stay stable and not escalate at every new form of pressure. This also fosters an environment where horses enjoy being and are relaxed during the learning process. If a person is pushing a horse to do high levels of performance every day, then that horse isn't going to like being around that person. My horses learn to think about new experiences instead of reacting. There is a clear difference between my horse and one that was started by another trainer, because mine won't spook or over react to a scary dog, rope being thrown, car driving by, or crossing a scary bridge. This is because my horses have learned to think about things instead of just react.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="startEndLightDiv">
                 <h4>Starting and Ending Light In Everything You Do</h4>
@@ -53,6 +72,9 @@ function ArticlesPage(props){
                 <p>Having a horse that is relaxed and enjoying it's job and learning process brings better results than what you would get if you had intense training sessions on Mondays and Fridays. If you are working horses every day, during the last 30 minutes activly be with your horse (sitting next to it, brusing it, letting it eat, etc.) anything that keeps their attention relatively on you, but is enjoyable for them. Then when you put them away for the night, they will have more stress free experiences to ruminate on, rather than the hard work. This will allow the horse to enjoy being caught continually. If you don't do this you will find that a daily work schedule starts to make them resent being with you. If you only work and train your horses once a week, you will also need to do the 30 minutes of relaxing but attentive time (mentioned above) at the end of every session to keep horses wanting to be with you.</p>
             </div>
             <div id="abusedDiv">
+                <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/Te-mYeYrmvI?si=bUV5Cx4wapapgUDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
                 <h4>Training Abused Horses</h4>
                 <p>I have found that abused horses only need to be re-taught two things. This article explains these two two ways of thinking that horses have to re-adapt. After these two lessons, all abused horses are ready to make progress in training.</p>
 

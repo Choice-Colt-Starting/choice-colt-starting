@@ -4,7 +4,7 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:7310px;
+    height:10310px;
 }
 #articleIdeasDiv{
     background-color: lightgoldenrodyellow;
@@ -19,7 +19,6 @@
     max-height:500px;
 }
 .sectionTitlesDiv{
-    width:100vw;
     display:flex;
     justify-content:center;
     font-size:25px;
@@ -55,16 +54,16 @@
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    height:2100px;
+    height:2400px;
 }
-#wormVidDiv{
+.articleVidsDivs{
     height:40vw;
     width:100vw;
     display:flex;
     justify-content:center;
     align-items:center;
 }
-#wormerDiv{
+.textContentDivs{
     display:flex;
     flex-direction:column;
     text-wrap:pretty;
@@ -73,7 +72,11 @@
     background-color:lightcoral;
 }
 #objectVsLocationDiv{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
     background-color:lightseagreen;
+    height:3250px;
 }
 #trainersDiv{
     background-color:lightyellow;
