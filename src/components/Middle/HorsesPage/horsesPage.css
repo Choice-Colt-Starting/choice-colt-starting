@@ -28,6 +28,10 @@
     font-size:25px;
     text-align:center;
 }
+.listText:hover{
+    filter:brightness(70%);
+    cursor:pointer;
+}
 .horsesVideos{
     height:35vw;
     width:35vw;

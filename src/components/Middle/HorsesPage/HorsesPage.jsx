@@ -1,13 +1,30 @@
 import "./horsesPage.css";
+import react from "react";
 
 const HorsesPage=pages=>{
+    const [buck2Filly,setBuck2Filly]=react.useState(false);
+    const [blue3Geld,setBlue3Geld]=react.useState(false);
+    const [bay3Mare,setBay3Mare]=react.useState(false);
+    const [buck3Geld,setBuck3Geld]=react.useState(false);
+    const [red2Filly,setRed2Filly]=react.useState(false);
+    const [buckskin3Geld,setBuckskin3Geld]=react.useState(false);
+    const [grulla2Filly,setGrulla2Filly]=react.useState(false);
+    const [palo3Mare,setPalo3Mare]=react.useState(false);
+    const [bay3YearBay,setBay3YearBay]=react.useState(false);
+    const [mustang2Geld,setMustang2Geld]=react.useState(false);
+    const [roan3Geld,setRoan3Geld]=react.useState(false);
+    const [pony5Geld,setPony5Geld]=react.useState(false);
+    const [mustang3Mare,setMustang3Mare]=react.useState(false);
+    const [pinto3Mare,setPinto3Mare]=react.useState(false);
+    const [bay2Geld,setBay2Geld]=react.useState(false);
+
     return(
         <div id={pages.horsesClicked===false?"none":"horsesPageParentDiv"}>
             <div id="horsesPageDescriptionDiv">
                 <h4 id="progressText">Find A Horse and Watch It's Progress</h4>
             </div>
-            <h4 className="listText">2 Year Old Buckskin Filly</h4>
-            <div className="playlists">
+            <h4 className="listText" onClick={()=>setBuck2Filly(!buck2Filly)}>2 Year Old Buckskin Filly</h4>
+            <div id={buck2Filly===false?"none":''}className="playlists">
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/V8Vz58jJhIw?si=11WBPRXxMTogU-eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/klZVpW3bnGM?si=scdktAhI8tCKGILF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -23,8 +40,8 @@ const HorsesPage=pages=>{
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/fuSII-Vu7Z0?si=P72891MAmvghkh4f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
 
-            <h4 className="listText">3 Year Old Blue Roan Gelding</h4>
-            <div className="playlists">
+            <h4 className="listText" onClick={()=>setBlue3Geld(!blue3Geld)}>3 Year Old Blue Roan Gelding</h4>
+            <div id={blue3Geld===false?"none":''} className="playlists">
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/wHRVElfxinc?si=C3DegYDT0AMb-ZAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/8G7s92tWmic?si=62-yg0ppdZ4gomXx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -35,8 +52,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/PzK_XwaNJS4?si=2xjF3sk0PHXC0s6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Bay Mare</h4>
+                <h4 className="listText" onClick={()=>setBay3Mare(!bay3Mare)}>3 Year Old Bay Mare</h4>
+            <div  id={bay3Mare===false?"none":''}className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/jTFl8zeuRho?si=lJW8gZL8f4jFqJUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -44,8 +61,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/IMpy_6NYrCg?si=n9-wIVpJXayy7feN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Buckskin Gelding</h4>
+                <h4 className="listText" onClick={()=>setBuck3Geld(!buck3Geld)}>3 Year Old Buckskin Gelding</h4>
+            <div id={buck3Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/HePMTk8GACo?si=FQ3CCktBynZ7FAU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -53,8 +70,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/zcbJFXFGoaI?si=gM9g2XSM7BOkXjwa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">2 Year Old Red Roan Filly</h4>
+                <h4 className="listText" onClick={()=>setRed2Filly(!red2Filly)}>2 Year Old Red Roan Filly</h4>
+            <div id={red2Filly===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/iIE_oavaa7w?si=P1f2QQ05t9AwQUuB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -76,8 +93,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/tDygumJ81Ak?si=fKzuvrsIFllw35Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Buckskin Gelding</h4>
+                <h4 className="listText" onClick={()=>setBuckskin3Geld(!buckskin3Geld)}>3 Year Old Buckskin Gelding</h4>
+            <div id={buckskin3Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/oezaISQJ-jg?si=tmTNfhK6y8jNDbGb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -97,8 +114,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/OZS4Q1AVfBA?si=0GQHH-S-2AOM2we3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">2 Year Old Grulla Filly</h4>
+                <h4 className="listText" onClick={()=>setGrulla2Filly(!grulla2Filly)}>2 Year Old Grulla Filly</h4>
+            <div id={grulla2Filly===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/eI8ucWi4dgI?si=zdca-GaaQp3S53QF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -120,8 +137,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/ZvlwSc1v0rM?si=OH5xNwECuH9hTkh1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Palomino Mare</h4>
+                <h4 className="listText" onClick={()=>setPalo3Mare(!palo3Mare)}>3 Year Old Palomino Mare</h4>
+            <div  id={palo3Mare===false?"none":''}className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/Mlmhc72IgUA?si=IMqdfdWw9Mb8j83k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -145,8 +162,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/lrp28TSDFuk?si=M-axc3modjoQsEin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Bay Mare</h4>
+                <h4 className="listText" onClick={()=>setBay3YearBay(!bay3YearBay)}>3 Year Old Bay Mare</h4>
+            <div id={bay3YearBay===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/A5xcPIPBMRo?si=p6VpG4i1TOcnaS-r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -170,8 +187,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/WADuKUnqkog?si=V2OOFSzb5Jgxn_Kx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">2 Year Old Mustang Gelding</h4>
+                <h4 className="listText" onClick={()=>setMustang2Geld(!mustang2Geld)}>2 Year Old Mustang Gelding</h4>
+            <div id={mustang2Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/9ia5PB6MdRk?si=jr7axx72BFEycUUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -183,8 +200,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/cR-6xZj3NAU?si=7Ch1JqgoK9jq7Q2G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Bay Roan Gelding</h4>
+                <h4 className="listText" onClick={()=>setRoan3Geld(!roan3Geld)}>3 Year Old Bay Roan Gelding</h4>
+            <div id={roan3Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/viM0zc8nwB0?si=w8X3GSuOmD9rerbz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -194,8 +211,8 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/IJHIBzmZa2E?si=g6HYelQIRuLTytCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">5 Year Old Pinto Pony</h4>
+                <h4 className="listText" onClick={()=>setPony5Geld(!pony5Geld)}>5 Year Old Pinto Pony</h4>
+            <div id={pony5Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/NO-aiQ8aYIw?si=yQlHo-oC-P9plMnj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -205,18 +222,18 @@ const HorsesPage=pages=>{
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/r7CcJiAErh4?si=1xiZn2KUqsHlZ57E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Mustang Mare</h4>
+                <h4 className="listText" onClick={()=>setMustang3Mare(!mustang3Mare)}>3 Year Old Mustang Mare</h4>
+            <div id={mustang3Mare===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/YTFo2LvSKiY?si=qLgyYAZF1K9ll68m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">3 Year Old Pinto Mare</h4>
+                <h4 className="listText" onClick={()=>setPinto3Mare(!pinto3Mare)}>3 Year Old Pinto Mare</h4>
+            <div id={pinto3Mare===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/6ngfhip1yD4?si=NsXoCx142n0rQGmf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
-            <div className="playlists">
-                <h4 className="listText">2 Year Old Bay Gelding</h4>
+                <h4 className="listText" onClick={()=>setBay2Geld(!bay2Geld)}>2 Year Old Bay Gelding</h4>
+            <div id={bay2Geld===false?"none":''} className="playlists">
 
                 <iframe className="horsesVideos"  src="https://www.youtube.com/embed/N_CKg1HRkK0?si=Sx4KtkjkY0BeFwWX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
