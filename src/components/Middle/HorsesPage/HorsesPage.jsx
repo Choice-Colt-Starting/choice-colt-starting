@@ -23,7 +23,7 @@ const HorsesPage=pages=>{
             <div id="horsesPageDescriptionDiv">
                 <h4 id="progressText">Find A Horse and Watch It's Progress</h4>
             </div>
-            <h4 className="listText" onClick={()=>setBuck2Filly(!buck2Filly)}>2 Year Old Buckskin Filly</h4>
+            {/* <h4 className="listText" onClick={()=>setBuck2Filly(!buck2Filly)}>2 Year Old Buckskin Filly</h4>
             <div id={buck2Filly===false?"none":''}className="playlists">
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/V8Vz58jJhIw?si=11WBPRXxMTogU-eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
@@ -92,7 +92,26 @@ const HorsesPage=pages=>{
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/5Q8CT1XyrJs?si=THnbB0j770KWkToQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/tDygumJ81Ak?si=fKzuvrsIFllw35Sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div>
+            </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 {/* <h4 className="listText" onClick={()=>setBuckskin3Geld(!buckskin3Geld)}>3 Year Old Buckskin Gelding</h4>
             <div id={buckskin3Geld===false?"none":''} className="playlists">
 
