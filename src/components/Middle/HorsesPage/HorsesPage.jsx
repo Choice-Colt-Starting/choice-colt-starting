@@ -23,6 +23,9 @@ const HorsesPage=pages=>{
             <div id="horsesPageDescriptionDiv">
                 <h4 id="progressText">Find A Horse and Watch It's Progress</h4>
             </div>
+            <div id="youtubeLinkDiv">
+                <a id="youtubeLink" href="https://www.youtube.com/@choicecoltstarting">Go To Our YouTube Page</a>
+            </div>
             {/* <h4 className="listText" onClick={()=>setBuck2Filly(!buck2Filly)}>2 Year Old Buckskin Filly</h4>
             <div id={buck2Filly===false?"none":''}className="playlists">
                 <iframe className="horsesVideos" src="https://www.youtube.com/embed/V8Vz58jJhIw?si=11WBPRXxMTogU-eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
