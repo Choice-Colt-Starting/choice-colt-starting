@@ -1,22 +1,22 @@
 import "./horsesPage.css";
-import react from "react";
+// import react from "react";
 
 const HorsesPage=pages=>{
-    const [buck2Filly,setBuck2Filly]=react.useState(false);
-    const [blue3Geld,setBlue3Geld]=react.useState(false);
-    const [bay3Mare,setBay3Mare]=react.useState(false);
-    const [buck3Geld,setBuck3Geld]=react.useState(false);
-    const [red2Filly,setRed2Filly]=react.useState(false);
-    const [buckskin3Geld,setBuckskin3Geld]=react.useState(false);
-    const [grulla2Filly,setGrulla2Filly]=react.useState(false);
-    const [palo3Mare,setPalo3Mare]=react.useState(false);
-    const [bay3YearBay,setBay3YearBay]=react.useState(false);
-    const [mustang2Geld,setMustang2Geld]=react.useState(false);
-    const [roan3Geld,setRoan3Geld]=react.useState(false);
-    const [pony5Geld,setPony5Geld]=react.useState(false);
-    const [mustang3Mare,setMustang3Mare]=react.useState(false);
-    const [pinto3Mare,setPinto3Mare]=react.useState(false);
-    const [bay2Geld,setBay2Geld]=react.useState(false);
+    // const [buck2Filly,setBuck2Filly]=react.useState(false);
+    // const [blue3Geld,setBlue3Geld]=react.useState(false);
+    // const [bay3Mare,setBay3Mare]=react.useState(false);
+    // const [buck3Geld,setBuck3Geld]=react.useState(false);
+    // const [red2Filly,setRed2Filly]=react.useState(false);
+    // const [buckskin3Geld,setBuckskin3Geld]=react.useState(false);
+    // const [grulla2Filly,setGrulla2Filly]=react.useState(false);
+    // const [palo3Mare,setPalo3Mare]=react.useState(false);
+    // const [bay3YearBay,setBay3YearBay]=react.useState(false);
+    // const [mustang2Geld,setMustang2Geld]=react.useState(false);
+    // const [roan3Geld,setRoan3Geld]=react.useState(false);
+    // const [pony5Geld,setPony5Geld]=react.useState(false);
+    // const [mustang3Mare,setMustang3Mare]=react.useState(false);
+    // const [pinto3Mare,setPinto3Mare]=react.useState(false);
+    // const [bay2Geld,setBay2Geld]=react.useState(false);
 
     return(
         <div id={pages.horsesClicked===false?"none":"horsesPageParentDiv"}>
