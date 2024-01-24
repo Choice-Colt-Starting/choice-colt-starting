@@ -11,9 +11,7 @@ const LandingPage = ({
             <img id="steedPic"src={steedPic} alt="logo" />
             <div id="seperateDiv" />
             <div>
-                <Discover 
-                    setArticlesPage={setArticlesPage}
-                    setHorsesPage={setHorsesPage} />
+                <Discover setArticlesPage={setArticlesPage} />
             </div>
         </div>
     );

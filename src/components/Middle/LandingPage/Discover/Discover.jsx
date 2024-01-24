@@ -1,12 +1,10 @@
 import"./discover.css";
 
-function Discover({
-    setArticlesPage,
-    setHorsesPage}) {
+function Discover({setArticlesPage}) {
     
     return(
         <div id="parentDiscoverDiv">
-            <h3 id="disDiv0" className="discoverDivs disText" onClick={()=>setHorsesPage()}>Check progress of horses</h3>
+            <h3 id="disDiv0" className="discoverDivs disText" onClick={()=>setArticlesPage()}>Horse Psychology</h3>
             <h3 id="disDiv1" className="discoverDivs disText" onClick={()=>setArticlesPage()}>Horses learn from the release of pressure</h3>
             <h3 id="disDiv2" className="discoverDivs disText" onClick={()=>setArticlesPage()}>Understanding Problem Horses</h3>
             <h3 id="disDiv5" className="discoverDivs disText" onClick={()=>setArticlesPage()}>When is your horse ready to learn something new</h3>
