@@ -4,7 +4,7 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:15310px;
+    height:12000px;
 }
 #articleIdeasDiv{
     background-color: lightgoldenrodyellow;
@@ -111,7 +111,7 @@
 }
 @media(max-width:300px){
     #articlesPageParentDiv{
-        height:20310px;
+        height:16000px;
     }
     #articleIdeasDiv{
         height:900px;
@@ -127,7 +127,20 @@
     }
 }
 @media(min-width:1100px){
+    #articlesPageParentDiv{
+        height:6100px;
+    }
+    #wormParentDiv{
+        height:1400px;
+        justify-content:center;
+    }
+    .articleVidsDivs{
+        height:535px;
+    }
+    #objectVsLocationDiv{
+        height:1700px;
+    }
     #abusedDiv{
-        height:2000px;
+        height:1850px;
     }
 }
