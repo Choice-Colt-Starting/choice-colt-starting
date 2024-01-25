@@ -57,7 +57,7 @@
     height:2100px;
 }
 .articleVidsDivs{
-    height:40vw;
+    height:60vw;
     width:100vw;
     display:flex;
     justify-content:center;
@@ -76,9 +76,15 @@
     justify-content:center;
     text-align:left;
 }
+.abuseTitleDivs{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
 .abusedTitles{
     font-size:25px;
     text-decoration:underline;
+    text-align:center;
 }
 .abusedDescriptionDivs{
     width:100vw;
@@ -95,7 +101,7 @@
     flex-direction:column;
     justify-content:space-evenly;
     background-color:lightseagreen;
-    height:3400px;
+    height:3450px;
 }
 #trainersDiv{
     background-color:lightyellow;

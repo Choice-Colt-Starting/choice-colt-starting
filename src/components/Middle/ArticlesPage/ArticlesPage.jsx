@@ -36,7 +36,7 @@ function ArticlesPage(props){
                 </div>
             </div>
             <div id="objectVsLocationDiv">
-            <div className="articleVidsDivs">
+                <div className="articleVidsDivs">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/E43FVOYiS-A?si=g-2MUUA-iZhcb6vp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
                 <div className="textContentDivs">
@@ -66,18 +66,24 @@ function ArticlesPage(props){
                 <div className="articleVidsDivs">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/Te-mYeYrmvI?si=bUV5Cx4wapapgUDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
-                <h4 className="abusedTitles">Training Abused Horses</h4>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Training Abused Horses</h4>
+                </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">I have found that abused horses only need to be re-taught two things. This article explains these two two ways of thinking that horses have to re-adapt. After these two lessons, all abused horses are ready to make progress in training.</p>
                 </div>
-                <h4 className="abusedTitles">Lesson 1: Understand Pressure</h4>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Lesson 1: Understand Pressure</h4>
+                </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">Horses that have been abused are often used to people escalating pressure with no chance for the horse to try to find the release of pressure. For example, someone could be standing by their horse (let's say that pressure has a scale of 1-10) with a pressure of 0, and the horse pushes the person with their head. An abusive person adds pressure that is so intense and high with a pressure of 9 or 10 to get the horse to stop pushing them with their head. Horses don't know how to deal with this type of abusive communication because horses never jump from a 0 to a 10 with one another in their herds. They always increase their pressure through each number, to give the other horse a fair warning to start looking for the release of pressure. Horses increase pressure gradually with outward signs like: Swishing tail (1-2), pinning ears (3-4), biting (5-6), pushing with butt (7-8), single leg kicks (9), kicking with both rear legs (10). They never skip these steps, so they have an impossible time understanding humans that do skip steps.</p>
                 </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">When training an abused horse, the first 3-4 days are to teach the horse that humans do use gradual amounts of pressure, and that we will give time for them to think through a problem and find the release of pressure. Some horses that have been abused either act out in defense when humans are not doing anything threatening, because the horse is scared that we are going to be irrational with our pressure. Some abused horses lock up and ignore the pressure that a human is giving them, because they know that if they move at all, they might get hurt from the owner. These problems are easily trained out of abused horses, and don't effect their training or life permanently.</p> 
                 </div>
-                <h4 className="abusedTitles">Lesson 2: Relaxful mind</h4>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Lesson 2: Relaxful mind</h4>
+                </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">Horses that have been abused, haven't learned to be relaxed. They also haven't learned to think through pressure while being relaxed. Once a horse has learned to be relaxed while thinking through problems, it will no longer show the previously extreme reactions to being trained or taught. This relaxful mindset takes a lot of time to teach an abused horse. It takes somewhere between 4 weeks to 4 months depending on the amount of times the horse has been abused.</p>
                 </div>
