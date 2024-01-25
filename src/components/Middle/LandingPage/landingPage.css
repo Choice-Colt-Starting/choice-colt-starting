@@ -18,3 +18,8 @@
     width:100vw;
     background-color:black;
 }
+@media(max-width:300px){
+    #steedPic{
+        width:270px;
+    }
+}

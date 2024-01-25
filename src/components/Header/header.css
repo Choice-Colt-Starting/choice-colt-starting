@@ -7,7 +7,7 @@
     align-items:center;
     justify-content:space-between;
     width:100vw;
-    height:250px;
+    height:200px;
     background-color:black;
 }
 #leftHeaderDiv{
@@ -16,6 +16,8 @@
 #headerMyName{
     color:white;
     margin-left:50px;
+    position:relative;
+    bottom:20px;
 }
 #rightHeaderDiv{
     margin-right:25px;
@@ -23,6 +25,8 @@
 #headerLogo{
     border-radius:80px;
     height:150px;
+    position:relative;
+    bottom:15px;
 }
 #headerLogo:hover{
     cursor:pointer;
@@ -30,4 +34,13 @@
 #bottomHeaderDiv{
     display:flex;
     justify-content:center;
+}
+@media(max-width:300px){
+    #headerMyName{
+        font-size:25px;
+        margin-left:25px;
+    }   
+    #headerLogo{
+        height:100px;
+    }
 }

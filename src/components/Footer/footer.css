@@ -45,8 +45,8 @@
     align-items:center;
 }
 #footerLogo{
-    height:150px;
-    width:150px;
+    height:130px;
+    width:130px;
 }
 #footerLogo:hover{
     cursor:pointer;
@@ -59,4 +59,16 @@
 .contactText{
     margin-top:20px;
     margin-bottom:0px;
+}
+@media(max-width:300px){
+    #footerLogo{
+        height:80px;
+        width:80px;
+    }
+    #column1{
+        width:22vw;
+    }
+    #column3{
+        margin-left:5px;
+    }
 }
