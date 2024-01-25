@@ -40,9 +40,16 @@
 #column3{
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
+    justify-content:center;
     width:33.333vw;
     align-items:center;
+}
+#footerLogo{
+    height:150px;
+    width:150px;
+}
+#footerLogo:hover{
+    cursor:pointer;
 }
 .contactUsDiv{
     display:flex;

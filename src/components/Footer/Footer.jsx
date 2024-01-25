@@ -3,8 +3,8 @@ import youtubeIcon from"./images/youtubeIcon.jpg";
 import instagramIcon from"./images/instagramIcon.jpg";
 import facebookIcon from"./images/facebookIcon.jpg";
 import tiktokIcon from"./images/tiktokIcon.jpg";
-
-function Footer(){
+import footerLogo from"./images/footerLogo.png";
+function Footer({setLandingPage}){
     return(
         <div id="parentFooterDiv">
             <div id="column1">
@@ -40,6 +40,12 @@ function Footer(){
                 <a className="footerText" href="https://downunderhorsemanship.com/guides/">Downunder Horsemanship Training Guides</a>
             </div>
             <div id="column3">
+                <img
+                    id="footerLogo"
+                    onClick={()=>{setLandingPage();window.scrollTo({top:0,left:0,behavior:"instant"})}}
+                    src={footerLogo}
+                    alt="Choice Colt Starting"
+                />
                 <div className="contactUsDiv">
                     <h3 className="footerText contactText">Contact Us</h3>
                     <h5 className="footerText contactText">Phone Number: (801) 735-4675</h5>

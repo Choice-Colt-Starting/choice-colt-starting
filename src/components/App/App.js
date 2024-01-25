@@ -33,7 +33,9 @@ function App() {
           setArticlesPage={setArticlesPage}
           setHorsesPage={setHorsesPage} 
         />
-        <Footer />
+        <Footer 
+          setLandingPage={setLandingPage}
+        />
     </>
   );
 }

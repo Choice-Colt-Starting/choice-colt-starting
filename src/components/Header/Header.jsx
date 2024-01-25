@@ -21,7 +21,7 @@ function Header({
                 <div id="rightHeaderDiv">
                     <img 
                         id="headerLogo"
-                        onClick={setLandingPage}
+                        onClick={()=>{setLandingPage();window.scrollTo({top:0,left:0,behavior:"instant"})}}
                         src={headerLogo} alt="Choice Colt Starting"
                     />
                 </div>
