@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.288e4891.css",
-    "main.js": "./static/js/main.997858f9.js",
+    "main.css": "./static/css/main.c09186e7.css",
+    "main.js": "./static/js/main.cb8c8cae.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/trailRiding.png": "./static/media/trailRiding.9406b26cd9265f0f1618.png",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
@@ -15,6 +15,7 @@
     "static/media/roo.jpeg": "./static/media/roo.75440cc5e76659e0a2e5.jpeg",
     "static/media/starsPic.png": "./static/media/starsPic.d0487b7bddcf66b78b3a.png",
     "static/media/story.jpeg": "./static/media/story.88dd1d39f3891ee97ff4.jpeg",
+    "static/media/footerLogo.png": "./static/media/footerLogo.c4da0a59232edf3a6b53.png",
     "static/media/headerLogo.png": "./static/media/headerLogo.c4da0a59232edf3a6b53.png",
     "static/media/me2.jpeg": "./static/media/me2.4dc5c0945db60906c56b.jpeg",
     "static/media/tiktokIcon.jpg": "./static/media/tiktokIcon.a1c2de0efc81d215b8f7.jpg",
@@ -23,12 +24,12 @@
     "static/media/jake.jpeg": "./static/media/jake.1ee500a72a34c48aac6e.jpeg",
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
-    "main.288e4891.css.map": "./static/css/main.288e4891.css.map",
-    "main.997858f9.js.map": "./static/js/main.997858f9.js.map",
+    "main.c09186e7.css.map": "./static/css/main.c09186e7.css.map",
+    "main.cb8c8cae.js.map": "./static/js/main.cb8c8cae.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.288e4891.css",
-    "static/js/main.997858f9.js"
+    "static/css/main.c09186e7.css",
+    "static/js/main.cb8c8cae.js"
   ]
 }
