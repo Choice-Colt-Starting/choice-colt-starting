@@ -45,8 +45,8 @@ function Footer(){
                     <h5 className="footerText contactText">Phone Number: (801) 735-4675</h5>
                 </div>
                 <div className="contactUsDiv">
-                    <h5 className="footerText contactText">Ranch Address:</h5>
-                    <h5 className="footerText contactText">2060 N 1200 E, North Ogden, Utah, 84414</h5>
+                    <h5 className="footerText contactText">Ranch Location:</h5>
+                    <h5 className="footerText contactText">North Ogden, Utah</h5>
                 </div>
             </div>
         </div>
