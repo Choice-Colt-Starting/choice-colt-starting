@@ -7,15 +7,12 @@ import nikki2Pic from "./images/roo.jpeg";
 import orluffPic from "./images/orluff.jpeg";
 import { HorseReview } from "./HorseReview/HorseReview";
 import{HorsesWorldMap}from"./HorsesWorldMap/HorsesWorldMap.jsx";
-
+import react from "react";
 function HorsesReviewsPage({ horsesReviewsClicked }){
 
+    const[showReview,setShowReview]=react.useState(false);
+
     const horseReviews = [
-        {
-            name: 'Kylee Olson',
-            image: kyleePic,
-            review: 'I took my two year old filly to Stephen in the spring 2023. She definitely had a wild side and I was very nervous she wouldn’t turn out. She had 90 days training with him. Since having her back She is legitimately my favorite horse to ride. She doesn’t even act like what you would expect from a 2 1/2 year old. She is so chill and laid back about everything. I think my most favorite thing about her is she is not buddy sour at all. And she was very much before I took her to Stephen. I think the confidence he builds in them doing all the solo trail/city riding that young that makes a huge difference. She continues to impress me every time I ride her.  I would recommend him to anyone.'
-        },
         {
             name: 'Sandee S',
             image: sandeePic,
@@ -38,11 +35,38 @@ function HorsesReviewsPage({ horsesReviewsClicked }){
         },
     ]
 
+    function decideParentId(){
+        if(horsesReviewsClicked===true&&showReview===false){
+            return "reviewsParentDiv";
+        }
+        if(horsesReviewsClicked===true&&showReview===true){
+            return "reviewsParentBigDiv";
+        }
+        else{
+            return "none";
+        }
+    }
+
     return(
-        <div id={ horsesReviewsClicked ? "horsesParentDiv" : "none" }>
+        <div id={decideParentId()}>
             {/* <HorsesWorldMap /> */}
-            <a id="googleMapsLink" href="https://www.google.com/maps/place/Choice+Colt+Starting/@41.294761,-111.9500269,17z/data=!3m1!4b1!4m6!3m5!1s0x87530daca4ff022d:0x7d664e4d9bc6882f!8m2!3d41.294761!4d-111.947452!16s%2Fg%2F11v0yvq7rb?entry=ttu">Give a Review</a>
+            <a id="googleMapsLink" href="https://www.youtube.com/@choicecoltstarting">Comment & Review</a>
             <img id="stars" src={starsPic} alt="stars" />
+
+            <div id={showReview===false?"review1div":"review1bigDiv"}>
+                <div id={showReview===false?"owner1div":"owner1bigDiv"}>
+                    <h4 className="name">Kylee Olson:</h4>
+                    <img className="horsePic" src={kyleePic} alt="horse" />
+                </div>
+                <div id="wordsRev1Div">
+                    <p className="words">I took my two year old filly to Stephen in the spring 2023. She definitely had a wild side and I was very nervous she wouldn’t turn out. She had 90 days training with him. Since having her back She is legitimately my favorite horse to ride. She. . .</p>
+
+                    <p id={showReview===false?"expandTxt":"none"} onClick={()=>setShowReview(true)}>Expand</p>         
+                    <p id={showReview===false?"none":"collapseTxt"} onClick={()=>setShowReview(false)}>Collapse</p>          
+                    <p id={showReview===false?"none":"revParagraph2"}className="words"> doesn’t even act like what you would expect from a 2 1/2 year old. She is so chill and laid back about everything. I think my most favorite thing about her is she is not buddy sour at all. And she was very much before I took her to Stephen. I think the confidence he builds in them doing all the solo trail/city riding that young that makes a huge difference. She continues to impress me every time I ride her.  I would recommend him to anyone.</p>
+                </div>
+            </div>
+
             {horseReviews.map(({ name, image, review }) => {
                 return (
                     <HorseReview 

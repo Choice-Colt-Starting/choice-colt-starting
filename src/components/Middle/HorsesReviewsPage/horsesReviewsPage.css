@@ -1,13 +1,20 @@
 #none{
     display:none;
 }
-#horsesParentDiv{
+#reviewsParentDiv{
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    /* height:2200px; */
-    height:2500px;
+    height:1750px;
+    /* height:2500px; */
+}
+#reviewsParentBigDiv{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:2100px;
 }
 #stars{
     height:150px;
@@ -39,14 +46,51 @@
     border-bottom-color:black;
     background-color: lightgoldenrodyellow;
 }
+#review1div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-style:solid;
+    border-top-width:2px;
+    border-top-color:black;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    background-color: lightgoldenrodyellow;
+    height:300px;
+}
+#review1bigDiv{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-style:solid;
+    border-top-width:2px;
+    border-top-color:black;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    background-color: lightgoldenrodyellow;
+    height:590px;
+}
 .ownerDiv{
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    height:450px;
+    height:300px;
     width:100px;
     background-color:lightgoldenrodyellow;
+}
+#owner1div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100px;
+}
+#owner1bigDiv{
+    position:relative;
+    bottom:165px;
 }
 .name{
     margin-bottom:5px;
@@ -59,7 +103,103 @@
     display:flex;
     align-items:center;
     width:250px;
-    height:230px;
     background-color:lightgoldenrodyellow;
     padding-right:5px;
 }
+#wordsRev1Div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:250px;
+    background-color:lightgoldenrodyellow;
+    padding-right:5px;
+}
+#expandTxt{
+    color:blue;
+    text-decoration:underline;
+    position:relative;
+    bottom:55px;
+}
+#expandTxt:hover{
+    cursor:pointer;
+}
+#collapseTxt{
+    color:blue;
+    text-decoration:underline;
+    position:relative;
+    bottom:55px;
+}
+#collapseTxt:hover{
+    cursor:pointer;
+}
+#revParagraph2{
+    position:relative;
+    bottom:87px;
+}
+@media(max-width:300px){
+    #reviewsParentDiv{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        height:2800px;
+    }
+    #reviewsParentBigDiv{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        height:3000px;
+    }    
+    .reviewDiv{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-top-style:solid;
+        border-top-width:2px;
+        border-top-color:black;
+        border-bottom-style:solid;
+        border-bottom-width:2px;
+        border-bottom-color:black;
+        background-color: lightgoldenrodyellow;
+        width:265px;
+        height:500px;
+    }
+    #review1div{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-top-style:solid;
+        border-top-width:2px;
+        border-top-color:black;
+        border-bottom-style:solid;
+        border-bottom-width:2px;
+        border-bottom-color:black;
+        background-color: lightgoldenrodyellow;
+        height:500px;
+        width:265px;
+    }
+    #review1bigDiv{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-top-style:solid;
+        border-top-width:2px;
+        border-top-color:black;
+        border-bottom-style:solid;
+        border-bottom-width:2px;
+        border-bottom-color:black;
+        background-color: lightgoldenrodyellow;
+        height:780px;
+        width:265px;
+    }
+    #expandTxt{
+        position:relative;
+        bottom:35px;
+        left:60px;
+    }
+    #collapseTxt{
+        position:relative;
+        top:400px;
+    }
+}    
