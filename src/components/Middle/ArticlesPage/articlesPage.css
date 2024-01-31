@@ -4,13 +4,10 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:12000px;
+    height:14500px;
 }
-#articleIdeasDiv{
-    background-color: lightgoldenrodyellow;
-    display:flex;
-    flex-direction:column;
-    width:100vw;
+#psychologyTitle{
+    font-size:30px;
 }
 .articleVideos{
     height:60vw;
@@ -50,7 +47,7 @@
 
 }
 #wormParentDiv{
-    background-color:lightblue;
+    background-color:lightcoral;
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
@@ -69,10 +66,10 @@
     text-wrap:pretty;
 }
 #abusedDiv{
-    background-color:lightcoral;
+    background-color:lightblue;
+    height:3600px;
     display:flex;
     flex-direction:column;
-    height:3600px;
     justify-content:center;
     text-align:left;
 }
@@ -107,7 +104,18 @@
     background-color:lightyellow;
 }
 #startEndLightDiv{
-    background-color:azure;
+    background-color:rgb(209, 223, 223);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:left;
+    height:3800px;
+}
+#articleIdeasDiv{
+    background-color: lightgoldenrodyellow;
+    display:flex;
+    flex-direction:column;
+    width:100vw;
 }
 @media(max-width:300px){
     #articlesPageParentDiv{
