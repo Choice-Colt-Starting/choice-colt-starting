@@ -4,7 +4,7 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:14600px;
+    height:16000px;
 }
 #psychologyTitle{
     font-size:30px;
@@ -115,6 +115,10 @@
 }
 #trainersDiv{
     background-color:lightyellow;
+    height:2050px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
 }
 #startEndLightDiv{
     background-color:rgb(209, 223, 223);
@@ -125,7 +129,7 @@
     height:3800px;
 }
 #articleIdeasDiv{
-    background-color: lightgoldenrodyellow;
+    background-color:white;
     display:flex;
     flex-direction:column;
     width:100vw;

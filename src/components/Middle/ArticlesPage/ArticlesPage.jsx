@@ -109,11 +109,21 @@ function ArticlesPage(props){
                 </div>
             </div>
             <div id="trainersDiv">
-                <h4>Something Every Horse Trainer Needs</h4>
-                <p>Every horse trainer needs to have mastered at least one exercise that they know how to teach any type of horse, no matter what kind of reaction the horse gives.</p>
-                <p>Any horse can be trained, and any exercise can be taught. The trainer just needs to have mastered the exercise if they want to be able to teach it to every horse.</p>
-                <p>It is important for the first exercise that you teach a colt, to be done to the very best of the horse's ability. For example, if you teach it to round pen as your first exercise, you should be able to get that horse to do everything that a horse you've owned for two years can do. If you grade your horse's performance with the standard A, B, C, D, F grading system, you want your first exercise to be done to an A efficiency. Most colt starters don't do this, because they know that if the horse just understands the concept (lets say its a B) then they will be safe to move to the next exercise. This is true for most exercises, but it is a mistake to make with the first exercise taught. The first exercise is a time to set all clear boundaries with a horse, and to see if it can mentally and physically work hard. If the horse can't do an A amount of work 
-                mentally or physically, then it would be important to inform the owner sooner rather than later.</p>
+                <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/l0nalkeblL4?si=CtWsML-lofvWm1Hj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Something Every Horse Trainer Needs</h4>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Every horse trainer needs to have mastered at least one exercise that they know how to teach any type of horse, no matter what kind of reaction the horse gives.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Any horse can be trained, and any exercise can be taught. The trainer just needs to have mastered the exercise if they want to be able to teach it to every horse.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">It is important for the first exercise that you teach a colt, to be done to the very best of the horse's ability. For example, if you teach it to round pen as your first exercise, you should be able to get that horse to do everything that a horse you've owned for two years can do. If you grade your horse's performance with the standard A, B, C, D, F grading system, you want your first exercise to be done to an A efficiency. Most colt starters don't do this, because they know that if the horse just understands the concept (lets say its a B) then they will be safe to move to the next exercise. This is true for most exercises, but it is a mistake to make with the first exercise taught. The first exercise is a time to set all clear boundaries with a horse, and to see if it can mentally and physically work hard. If the horse can't do an A amount of work mentally or physically, then it would be important to inform the owner sooner rather than later.</p>
+                </div>
             </div>
             <div id="articleIdeasDiv">
                 <div className="sectionTitlesDiv">
