@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.82d3b588.css",
+    "main.css": "./static/css/main.a934b8f6.css",
     "main.js": "./static/js/main.a7684e7a.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/trailRiding.png": "./static/media/trailRiding.9406b26cd9265f0f1618.png",
@@ -24,12 +24,12 @@
     "static/media/jake.jpeg": "./static/media/jake.1ee500a72a34c48aac6e.jpeg",
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
-    "main.82d3b588.css.map": "./static/css/main.82d3b588.css.map",
+    "main.a934b8f6.css.map": "./static/css/main.a934b8f6.css.map",
     "main.a7684e7a.js.map": "./static/js/main.a7684e7a.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d3b588.css",
+    "static/css/main.a934b8f6.css",
     "static/js/main.a7684e7a.js"
   ]
 }
