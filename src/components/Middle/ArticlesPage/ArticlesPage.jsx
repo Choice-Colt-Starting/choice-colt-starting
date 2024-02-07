@@ -3,17 +3,20 @@ import "./articlesPage.css";
 function ArticlesPage(props){
     return(
         <div id={props.articlesClicked===false?"none":"articlesPageParentDiv"}>
-            <h4 id="psychologyTitle">Horse Psychology</h4>
+            <div id="psychologyParentDiv">
+            <div id="psychologyDiv">
+                <h4 id="psychologyTitle">Horse Psychology</h4>
+            </div>
             <div id="articlesMenuDiv">
                 <ul>
                     <li className="artMenuTxt"><a href="#abusedDiv">Abused Horses</a></li>
+                    <li className="artMenuTxt"><a href="#startEndLightDiv">Starting and Ending Light</a></li>
                     <li className="artMenuTxt"><a href="#objectVsLocationDiv">Object VS Location Desensitization</a></li>
                     <li className="artMenuTxt"><a href="#wormParentDiv">Deworming Horses</a></li>
-                    <li className="artMenuTxt"><a href="#startEndLightDiv">Starting and Ending Light</a></li>
                     <li className="artMenuTxt"><a href="#trainersDiv">Horse Trainer Knowledge</a></li>
                 </ul>
             </div>
-
+            </div>
             <div id="abusedDiv">
                 <div className="articleVidsDivs">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/Te-mYeYrmvI?si=bUV5Cx4wapapgUDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -38,6 +41,26 @@ function ArticlesPage(props){
                 </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">Horses that have been abused, haven't learned to be relaxed. They also haven't learned to think through pressure while being relaxed. Once a horse has learned to be relaxed while thinking through problems, it will no longer show the previously extreme reactions to being trained or taught. This relaxful mindset takes a lot of time to teach an abused horse. It takes somewhere between 4 weeks to 4 months depending on the amount of times the horse has been abused.</p>
+                </div>
+            </div>
+            <div id="startEndLightDiv">
+                <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/6XqWWRzQUgI?si=juMvznGD4L01z2VO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Starting and Ending Light In Everything You Do</h4>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">On the first day and last day of every week, I have a training session with my horses that has a very easy expectation and low stress level. The days in-between (Tuesday-Thursday) are days that I set expectations higher. Here's an example: I never pick up horses feet for the first time on a Monday or a Friday, because if horses have a stressful time, they will start to resent their decision to be around me. I will instead wait for a day between Tuesday-Thursday to do it for the first time.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Another way I start and end light is by always spending 10-15 minutes at the beginning and end of every training session having my horses walk, and desensitizing my horses. Another way I start and end light, is I always ask with the lightest possible pressure when teaching horses an exercise and increase the pressure until my horses are motivated to look for the release of pressure. Once my horses are motivated to look for the release of pressure, I lower my pressure back to as light as possible as long as they keep staying motivated to find the release.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Horses ruminate on things. We all know the famous saying, "Horses learn from the release of pressure.". Whatever the last thing they were thinking about when you put them away, is going to be thought about constantly until you catch them again. You can use this to your advantage if you control the last thing your horses are thinking about whenever you put them back in their stall. This is very impactful on their training. If you think that the only time horses are learning is while they're in the arena, under the saddle, or tied up, you're wrong. Horses that are put away, thinking about being relaxed and respectful will want to be caught whenever you catch them next. Horses that are put away thinking that they don't want to be submissive, will be more difficult to catch the next time. Starting and ending light is the key to having your horse enjoy the learning process.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Having a horse that is relaxed and enjoying it's job and learning process brings better results than what you would get if you had intense training sessions on Mondays and Fridays. If you are working horses every day, during the last 30 minutes actively be with your horse (sitting next to it, brushing it, letting it eat, etc.) anything that keeps their attention relatively on you, but is enjoyable for them. Then when you put them away for the night, they will have more stress free experiences to ruminate on, rather than the hard work. This will allow the horse to enjoy being caught continually. If you don't do this you will find that a daily work schedule starts to make them resent being with you. If you only work and train your horses once a week, you will also need to do the 30 minutes of relaxing but attentive time (mentioned above) at the end of every session to keep horses wanting to be with you.</p>
                 </div>
             </div>
             <div id="objectVsLocationDiv">
@@ -86,26 +109,6 @@ function ArticlesPage(props){
                             <p><b>5.</b> Remove cap from de-wormer syringe and slide it into the horse's interdental gap. Quickly squeeze desired de-wormer paste into the horse's mouth.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div id="startEndLightDiv">
-            <div className="articleVidsDivs">
-                    <iframe className="articleVideos" src="https://www.youtube.com/embed/6XqWWRzQUgI?si=juMvznGD4L01z2VO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                </div>
-                <div className="abuseTitleDivs">
-                    <h4 className="abusedTitles">Starting and Ending Light In Everything You Do</h4>
-                </div>
-                <div className="abusedDescriptionDivs">
-                    <p className="abusedDescriptions">On the first day and last day of every week, I have a training session with my horses that has a very easy expectation and low stress level. The days in-between (Tuesday-Thursday) are days that I set expectations higher. Here's an example: I never pick up horses feet for the first time on a Monday or a Friday, because if horses have a stressful time, they will start to resent their decision to be around me. I will instead wait for a day between Tuesday-Thursday to do it for the first time.</p>
-                </div>
-                <div className="abusedDescriptionDivs">
-                    <p className="abusedDescriptions">Another way I start and end light is by always spending 10-15 minutes at the beginning and end of every training session having my horses walk, and desensitizing my horses. Another way I start and end light, is I always ask with the lightest possible pressure when teaching horses an exercise and increase the pressure until my horses are motivated to look for the release of pressure. Once my horses are motivated to look for the release of pressure, I lower my pressure back to as light as possible as long as they keep staying motivated to find the release.</p>
-                </div>
-                <div className="abusedDescriptionDivs">
-                    <p className="abusedDescriptions">Horses ruminate on things. We all know the famous saying, "Horses learn from the release of pressure.". Whatever the last thing they were thinking about when you put them away, is going to be thought about constantly until you catch them again. You can use this to your advantage if you control the last thing your horses are thinking about whenever you put them back in their stall. This is very impactful on their training. If you think that the only time horses are learning is while they're in the arena, under the saddle, or tied up, you're wrong. Horses that are put away, thinking about being relaxed and respectful will want to be caught whenever you catch them next. Horses that are put away thinking that they don't want to be submissive, will be more difficult to catch the next time. Starting and ending light is the key to having your horse enjoy the learning process.</p>
-                </div>
-                <div className="abusedDescriptionDivs">
-                    <p className="abusedDescriptions">Having a horse that is relaxed and enjoying it's job and learning process brings better results than what you would get if you had intense training sessions on Mondays and Fridays. If you are working horses every day, during the last 30 minutes actively be with your horse (sitting next to it, brushing it, letting it eat, etc.) anything that keeps their attention relatively on you, but is enjoyable for them. Then when you put them away for the night, they will have more stress free experiences to ruminate on, rather than the hard work. This will allow the horse to enjoy being caught continually. If you don't do this you will find that a daily work schedule starts to make them resent being with you. If you only work and train your horses once a week, you will also need to do the 30 minutes of relaxing but attentive time (mentioned above) at the end of every session to keep horses wanting to be with you.</p>
                 </div>
             </div>
             <div id="trainersDiv">
