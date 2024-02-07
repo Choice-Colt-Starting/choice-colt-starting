@@ -6,11 +6,11 @@ function ArticlesPage(props){
             <h4 id="psychologyTitle">Horse Psychology</h4>
             <div id="articlesMenuDiv">
                 <ul>
-                <li className="artMenuTxt">Abused Horses</li>
-                <li className="artMenuTxt">Object VS Location Desinsitization</li>
-                <li className="artMenuTxt">Deworming Horses</li>
-                <li className="artMenuTxt">Starting and Ending Light</li>
-                <li className="artMenuTxt">Horse Trainer Knowledge</li>
+                    <li className="artMenuTxt"><a href="#abusedDiv">Abused Horses</a></li>
+                    <li className="artMenuTxt"><a href="#objectVsLocationDiv">Object VS Location Desensitization</a></li>
+                    <li className="artMenuTxt"><a href="#wormParentDiv">Deworming Horses</a></li>
+                    <li className="artMenuTxt"><a href="#startEndLightDiv">Starting and Ending Light</a></li>
+                    <li className="artMenuTxt"><a href="#trainersDiv">Horse Trainer Knowledge</a></li>
                 </ul>
             </div>
 

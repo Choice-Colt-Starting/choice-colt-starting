@@ -11,8 +11,6 @@
 }
 #articlesMenuDiv{
     width:100vw;
-    text-decoration:underline;
-    color:blue;
     display:flex;
     justify-content:center;
     align-items:center;
