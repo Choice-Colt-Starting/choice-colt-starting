@@ -4,6 +4,16 @@ function ArticlesPage(props){
     return(
         <div id={props.articlesClicked===false?"none":"articlesPageParentDiv"}>
             <h4 id="psychologyTitle">Horse Psychology</h4>
+            <div id="articlesMenuDiv">
+                <ul>
+                <li className="artMenuTxt">Abused Horses</li>
+                <li className="artMenuTxt">Object VS Location Desinsitization</li>
+                <li className="artMenuTxt">Deworming Horses</li>
+                <li className="artMenuTxt">Starting and Ending Light</li>
+                <li className="artMenuTxt">Horse Trainer Knowledge</li>
+                </ul>
+            </div>
+
             <div id="abusedDiv">
                 <div className="articleVidsDivs">
                     <iframe className="articleVideos" src="https://www.youtube.com/embed/Te-mYeYrmvI?si=bUV5Cx4wapapgUDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
