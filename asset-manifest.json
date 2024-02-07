@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9bc313ec.css",
-    "main.js": "./static/js/main.18276517.js",
+    "main.css": "./static/css/main.99c6d84c.css",
+    "main.js": "./static/js/main.7479ab51.js",
     "static/js/787.ac298769.chunk.js": "./static/js/787.ac298769.chunk.js",
     "static/media/trailRiding.png": "./static/media/trailRiding.9406b26cd9265f0f1618.png",
     "static/media/Steed_and_horse.png": "./static/media/Steed_and_horse.17273e658865eb3e5b38.png",
@@ -24,12 +24,12 @@
     "static/media/jake.jpeg": "./static/media/jake.1ee500a72a34c48aac6e.jpeg",
     "static/media/youtubeIcon.jpg": "./static/media/youtubeIcon.9c9a63ea552960565535.jpg",
     "index.html": "./index.html",
-    "main.9bc313ec.css.map": "./static/css/main.9bc313ec.css.map",
-    "main.18276517.js.map": "./static/js/main.18276517.js.map",
+    "main.99c6d84c.css.map": "./static/css/main.99c6d84c.css.map",
+    "main.7479ab51.js.map": "./static/js/main.7479ab51.js.map",
     "787.ac298769.chunk.js.map": "./static/js/787.ac298769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bc313ec.css",
-    "static/js/main.18276517.js"
+    "static/css/main.99c6d84c.css",
+    "static/js/main.7479ab51.js"
   ]
 }
