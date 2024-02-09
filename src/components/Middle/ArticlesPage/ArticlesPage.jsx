@@ -42,6 +42,15 @@ function ArticlesPage(props){
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">Horses that have been abused, haven't learned to be relaxed. They also haven't learned to think through pressure while being relaxed. Once a horse has learned to be relaxed while thinking through problems, it will no longer show the previously extreme reactions to being trained or taught. This relaxful mindset takes a lot of time to teach an abused horse. It takes somewhere between 4 weeks to 4 months depending on the amount of times the horse has been abused.</p>
                 </div>
+                <div className="topBtnParentDiv">
+                    <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                        top:0,
+                        left:0,
+                        behavior:"instant"
+                    })}>
+                        <p>Article Menu</p>
+                    </div>
+                </div>
             </div>
             <div id="startEndLightDiv">
                 <div className="articleVidsDivs">
@@ -61,6 +70,15 @@ function ArticlesPage(props){
                 </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">Having a horse that is relaxed and enjoying it's job and learning process brings better results than what you would get if you had intense training sessions on Mondays and Fridays. If you are working horses every day, during the last 30 minutes actively be with your horse (sitting next to it, brushing it, letting it eat, etc.) anything that keeps their attention relatively on you, but is enjoyable for them. Then when you put them away for the night, they will have more stress free experiences to ruminate on, rather than the hard work. This will allow the horse to enjoy being caught continually. If you don't do this you will find that a daily work schedule starts to make them resent being with you. If you only work and train your horses once a week, you will also need to do the 30 minutes of relaxing but attentive time (mentioned above) at the end of every session to keep horses wanting to be with you.</p>
+                </div>
+                <div className="topBtnParentDiv">
+                    <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                        top:0,
+                        left:0,
+                        behavior:"instant"
+                    })}>
+                        <p>Article Menu</p>
+                    </div>
                 </div>
             </div>
             <div id="objectVsLocationDiv">
@@ -88,6 +106,15 @@ function ArticlesPage(props){
                             </div>
                         </div>
                     </div>
+                        <div className="topBtnParentDiv">
+                            <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                                top:0,
+                                left:0,
+                                behavior:"instant"
+                            })}>
+                            <p>Article Menu</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="wormParentDiv">
@@ -109,6 +136,15 @@ function ArticlesPage(props){
                             <p><b>5.</b> Remove cap from de-wormer syringe and slide it into the horse's interdental gap. Quickly squeeze desired de-wormer paste into the horse's mouth.</p>
                         </div>
                     </div>
+                    <div className="topBtnParentDiv">
+                        <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                            top:0,
+                            left:0,
+                            behavior:"instant"
+                        })}>
+                            <p>Article Menu</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="trainersDiv">
@@ -126,6 +162,15 @@ function ArticlesPage(props){
                 </div>
                 <div className="abusedDescriptionDivs">
                     <p className="abusedDescriptions">It is important for the first exercise that you teach a colt, to be done to the very best of the horse's ability. For example, if you teach it to round pen as your first exercise, you should be able to get that horse to do everything that a horse you've owned for two years can do. If you grade your horse's performance with the standard A, B, C, D, F grading system, you want your first exercise to be done to an A efficiency. Most colt starters don't do this, because they know that if the horse just understands the concept (lets say its a B) then they will be safe to move to the next exercise. This is true for most exercises, but it is a mistake to make with the first exercise taught. The first exercise is a time to set all clear boundaries with a horse, and to see if it can mentally and physically work hard. If the horse can't do an A amount of work mentally or physically, then it would be important to inform the owner sooner rather than later.</p>
+                </div>
+                <div className="topBtnParentDiv">
+                    <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                        top:0,
+                        left:0,
+                        behavior:"instant"
+                    })}>
+                        <p>Article Menu</p>
+                    </div>
                 </div>
             </div>
             <div id="articleIdeasDiv">
