@@ -4,7 +4,7 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:16000px;
+    height:17650px;
 }
 #psychologyParentDiv{
     width:100vw;
@@ -144,7 +144,6 @@
     flex-direction:column;
     justify-content:space-evenly;
     height:3450px;
-    background-color:rgb(209, 223, 223);
     background-color:white;
 }
 #trainersDiv{
@@ -168,9 +167,22 @@
     flex-direction:column;
     width:100vw;
 }
+#ownerSenseDiv{
+    height:1500px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#ownerQuotes{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 @media(max-width:300px){
     #articlesPageParentDiv{
-        height:22050px;
+        height:23300px;
     }
     #articleIdeasDiv{
         height:900px;
@@ -190,10 +202,13 @@
     #trainersDiv{
         height:2700px;
     }
+    #ownerSenseDiv{
+        height:1750px;
+    }
 }
 @media only screen and (min-device-width:500px) and (max-device-width:1030px){
     #articlesPageParentDiv{
-        height:11400px;
+        height:12500px;
     }
     #wormParentDiv{
         height:1650px;
@@ -210,10 +225,13 @@
     #trainersDiv{
         height:1600px;
     }
+    #ownerSenseDiv{
+        height:1300px;
+    }
 }
 @media(min-width:1100px){
     #articlesPageParentDiv{
-        height:8600px;
+        height:9850px;
     }
     #wormParentDiv{
         height:1400px;
@@ -233,5 +251,8 @@
     }
     #trainersDiv{
         height:1300px;
+    }
+    #ownerSenseDiv{
+        height:1150px;
     }
 }

@@ -14,6 +14,7 @@ function ArticlesPage(props){
                     <li className="artMenuTxt"><a href="#objectVsLocationDiv">Object VS Location Desensitization</a></li>
                     <li className="artMenuTxt"><a href="#wormParentDiv">Deworming Horses</a></li>
                     <li className="artMenuTxt"><a href="#trainersDiv">Horse Trainer Knowledge</a></li>
+                    <li className="artMenuTxt"><a href="#ownerSenseDiv">Senseless Owners</a></li>
                 </ul>
             </div>
             </div>
@@ -173,13 +174,45 @@ function ArticlesPage(props){
                     </div>
                 </div>
             </div>
+            <div id="ownerSenseDiv">
+                <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/CGiNmpYWCU0?si=VOSYsJFSvNrugAej" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Senseless Horse Owners</h4>
+                </div>
+                
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions"> Colt starters are professionals at determining if a horse is trained. Owners shouldn't pressure colt starters to go faster or skip steps of training if the trainer determines them as necessary. Rushing horse trainers is asking them to ignore the behavior they are reading in the horse, and that's the whole reason they're the trainer. Below is my response to all the unuseful comments people make about their horse.</p>
+                </div>
+                <ul id="ownerQuotes">
+                    <li className="abusedDescriptions">"He's already got 20 rides"</li>
+                    <li className="abusedDescriptions">"She's got a sweet deminour"</li>
+                    <li className="abusedDescriptions">"Once you get the saddle on, he's got a great mind."</li>
+                    <li className="abusedDescriptions">"I just want him to be rode on the trails"</li>
+                    <li className="abusedDescriptions">"She's got a sweet disposition once the saddle's on."</li>
+                </ul>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">My response to all of these is: "Thanks for letting me know, but I'm still going to do things at my own pace."</p>
+                </div>
+                <div className="topBtnParentDiv">
+                    <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                        top:0,
+                        left:0,
+                        behavior:"instant"
+                    })}>
+                        <p>Article Menu</p>
+                    </div>
+                </div>
+
+            </div>
             <div id="articleIdeasDiv">
                 <div className="sectionTitlesDiv">
                     <h4>Ask Stephen Horse Training Questions!</h4>
                 </div>
                 <div id="articleIdeasDiv2">
                     <div className="sectionInfoDiv">
-                        <h4>Was there something you saw Stephen do that you want more explanation on? Would you like to hear Stephen's knowledge on a horse training topic? Do you have any tips or feedback to add for the articles on this page?</h4>
+                        <h4>Was there something Stephen did that you want more explanation on? Would you like to hear Stephen's knowledge on a horse training topic? Do you have any tips or feedback to add for the articles on this page?</h4>
                         <h4>Email us at choicecoltstarting@gmail.com, and we'll make an exhaustive article for you about your questions, tips, and feedback!</h4>
                     </div>
                 </div>
