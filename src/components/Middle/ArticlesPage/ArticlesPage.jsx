@@ -204,7 +204,47 @@ function ArticlesPage(props){
                         <p>Article Menu</p>
                     </div>
                 </div>
-
+            </div>
+            <div id="horseMemoryDiv">
+                <div className="articleVidsDivs">
+                    <iframe className="articleVideos" src="https://www.youtube.com/embed/f9A9o_-lLSc?si=7ZofXnAVQk7-8MG3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Horse Memory</h4>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Lots of people want horses to remember lessons taught for the rest of their life. The ability they have to forget information actually shows their intelligence for choosing what knowledge is important and what isn't. Understanding their memory patterns explained below will improve their learning process as you train them. When training horses, you want to use both muscle memory and mental memory. Every behavior from a horse comes from either a muscle or mental reaction.</p>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Horse Muscle Memory</h4>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Muscle memory is more important than mental memory.If you don't have the muscle memory then you can't teach the horse other things. We actually see this with humans too. As a baby horse and human baby develop physically, it is only as they start to physically move in more ways, like as a human learns to roll around, then it learns to crawl, then learns to walk. As a human masters it's physical memory, it is then able to expand it's mental memory. You can see this same thing with horse development.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Muscle memory is the most necessary because when you give a release to a horse by releasing pressure, that's a muscle related thing. The trainer looks for a muscle related behavior in the horse, and when the horse does the behavior that's wanted with their muscles, they release the pressure. This isn't always the case, but it's 90% of time. There are some exceptions for horse trainers that specilize on mental training in horses, but it is very rare to find such trainers. Most horse trainers don't even know how to put this into words, so they don't intentionally focus on these differences like I do. For example: If you want a horse to pick up their feet when you bring your hand down it's leg, then you're going to release the pressure when the horse brings it's foot up and is standing still. You're not going to release the pressure when the horse is thinking of lifting it's leg up. It's really complicated, and you can focus on what the horse is thinking. Some people do give a release of pressure when the horse is thinking about the correct action, even when the horse isn't physically doing it. It just takes professional awareness of the horse's acute behavior manifestations to correctly know what horses are thinking. Most of the time, even when a professional is trying to release the pressure when the horse is thinking correctly, the trainer (myself included) will be wrong 50% of the time. When you're getting paid to get a horse trained, you need to get the horse trained focusing on muscle memory, because you don't have the time to be wrong half of the time. With my own horses, I like to focus on giving the release if the horse is thinking correctly, regardless of it's muscle behavior, because it does make a better difference. It make a horse lighter. After all, you train a horse to train their mind in the long run, so if you can get there from the beginning, it is much more bennefitial.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">The release of pressure is always muscular. Whatever the horse is physically doing that's correct, that's typically when the trainer releases the pressure, so that's what the horse is going to remember and excell at. It's through muscle memory that horses are able to connect different trained behaviors. For example: When I'm riding a horse and I want to teach the horse to stay in the trot, be responsible for it's feet, and stay in the gait without me nagging it. So, when I'm trotting the horse around and it's muscles are trotting consistently and with rythem and I think the muscles have got part of the memory in them, I'm going to give the release. Then if you sit there, the horse has the release and your sitting still. The horse will lower it's head and it'll get comfortable, doze off, get curious about something and investigate. You're still in the release part. Horses are just like people when relaxed. Every once in a while they'll look up and ask if it's still relax time, like are we still sleeping here with the release. Then they'll go back to being completely relaxed. The cool thing, is that every time a horse wakes up a little and sees if we're still relaxing, it puts its body in the same position as when I initially released the pressure. The ears, head position, face position, etc. This shows that when a horse goes in and out of being in a relaxed state to a bored state the horse physically remembers and mentally remembers what the release was for. It's good to let a horse remember what the release was for as many times as you can before getting out of the release and doing the next exercise. If a horse keeps going in and out of it's relaxation to boredom, it will eventually forget what the release of pressure came from. They usually can go back and forth from boredom to relaxation about four times before they forget what gave the release of pressure. Another example of this is when a horse is in a pasture. If you observe when a horse goes between these relaxed and bored states, or sleepy and bored states you will see the following. For example: If a horse is eating in the pasture, it will get bored and fall asleep. When the horse wakes up, what does it do? It puts it's head back in the position to eat even though it doesn't want to eat. It puts it's head back in the position it was when it got the release of pressure. The same thing is seen when a foal is board while nurssing from it's mother. When a foal is nurssing and gets board, when it wakes up it will physically go back to the position of nursing even though the foal doesn't want to nurse and doesn't have control of this body movement. This is to help horses remember where they get their food and remember what they were doing before they were comfortable. You see the same thing when a horse is scratching another horse's whithers or standing with it's head by another horse's tail.</p>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">Most people don't think that horses can sit there and think about something. This is partly because people don't take the time to let a horse think about something, and they don't observe horses for long periods of time in pastures or in the wild in the relaxed state. Another reason why muscle memory is more important than mental memory is because you train a horse in these steps (as Clinton Anderson's Downunder Horsemanship method teaches) 1. Create movement 2. Redirect movement 3. Inhibit movement. Clinton is speaking so much truth with this.</p>
+                </div>
+                <div className="abuseTitleDivs">
+                    <h4 className="abusedTitles">Horse Mental Memory</h4>
+                </div>
+                <div className="abusedDescriptionDivs">
+                    <p className="abusedDescriptions">As long as a horse has good physical capability, it can learn good mental capability. Here are some examples of mental things you can teach a horse: Respectful thoughts, who's alpha, responsible for gait, think through pressure, and be relaxed during pressure. All of these things that a horse has to learn to think about. You can teach all mental lessons with any physical training lesson, you can do it in the saddle, lunge line, round-pen, etc. It doesn't matter what the physical lesson is as long as the trainer has mastered the exercise enough to teach that mental lesson. Trainers and professionals have more fun focusing on what a horse is thinking, but clent's need results faster than that approach. Mental memory gives long lasting power, because if a horse has good thought processes, then it can be exposed to new muscular activities and it will still apply it's mental memory. Where if a horse has only been taught to do things with it's body, it will only have it's body to solve the new problems it encounters.</p>
+                </div>
+                <div className="topBtnParentDiv">
+                    <div className="topBtnDiv" onClick={()=>window.scrollTo({
+                        top:0,
+                        left:0,
+                        behavior:"instant"
+                    })}>
+                        <p>Article Menu</p>
+                    </div>
+                </div>
             </div>
             <div id="articleIdeasDiv">
                 <div className="sectionTitlesDiv">
