@@ -244,7 +244,7 @@
 }
 @media(min-width:1100px){
     #articlesPageParentDiv{
-        height:13250px;
+        height:13350px;
     }
     #wormParentDiv{
         height:1400px;
@@ -269,6 +269,6 @@
         height:1150px;
     }
     #horseMemoryDiv{
-        height:3350px;
+        height:3500px;
     }
 }

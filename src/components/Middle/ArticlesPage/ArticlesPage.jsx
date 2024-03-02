@@ -15,6 +15,7 @@ function ArticlesPage(props){
                     <li className="artMenuTxt"><a href="#wormParentDiv">Deworming Horses</a></li>
                     <li className="artMenuTxt"><a href="#trainersDiv">Horse Trainer Knowledge</a></li>
                     <li className="artMenuTxt"><a href="#ownerSenseDiv">Senseless Owners</a></li>
+                    <li className="artMenuTxt"><a href="#horseMemoryDiv">Horse Memory</a></li>
                 </ul>
             </div>
             </div>
