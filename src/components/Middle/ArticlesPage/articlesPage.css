@@ -4,7 +4,7 @@
     align-items:center;
     flex-direction:column;
     width:100vw;
-    height:27050px;
+    height:17650px;
 }
 #psychologyParentDiv{
     width:100vw;
@@ -162,7 +162,7 @@
     height:3850px;
 }
 #articleIdeasDiv{
-    background-color:rgb(195, 233, 245);
+    background-color:rgb(195, 164, 118);
     display:flex;
     flex-direction:column;
     width:100vw;
@@ -180,16 +180,9 @@
     justify-content:center;
     align-items:center;
 }
-#horseMemoryDiv{
-    height:9350px;
-    background-color:rgb(195, 164, 118);
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
 @media(max-width:300px){
     #articlesPageParentDiv{
-        height:36400px;
+        height:23300px;
     }
     #articleIdeasDiv{
         height:900px;
@@ -212,13 +205,10 @@
     #ownerSenseDiv{
         height:1750px;
     }
-    #horseMemoryDiv{
-        height:13050px;
-    }
 }
 @media only screen and (min-device-width:500px) and (max-device-width:1030px){
     #articlesPageParentDiv{
-        height:18050px;
+        height:12500px;
     }
     #wormParentDiv{
         height:1650px;
@@ -238,13 +228,10 @@
     #ownerSenseDiv{
         height:1300px;
     }
-    #horseMemoryDiv{
-        height:5500px;
-    }
 }
 @media(min-width:1100px){
     #articlesPageParentDiv{
-        height:13350px;
+        height:9850px;
     }
     #wormParentDiv{
         height:1400px;
@@ -267,8 +254,5 @@
     }
     #ownerSenseDiv{
         height:1150px;
-    }
-    #horseMemoryDiv{
-        height:3500px;
     }
 }
